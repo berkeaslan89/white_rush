@@ -45,13 +45,18 @@ class MovingSquare extends RectangleComponent
     add(CircleHitbox());
 
     // YENİ: Başlangıçta kareler ekrana tatlıca büyüyerek girer
+    // KÜÇÜK KARE SORUNU: respawnSquare()'deki gibi, büyüme animasyonu
+    // bitene kadar çarpışma fiziğini devre dışı bırakıyoruz. Aksi halde
+    // kare henüz küçükken (scale < 1.0) diğerleriyle çarpışıp küçük
+    // haliyle ekranda dolaşabiliyor.
+    isSpawning = true;
     scale = Vector2.zero();
-    add(
-      ScaleEffect.to(
-        Vector2.all(1.0),
-        EffectController(duration: 0.5, curve: Curves.easeOutBack),
-      ),
+    final growEffect = ScaleEffect.to(
+      Vector2.all(1.0),
+      EffectController(duration: 0.5, curve: Curves.easeOutBack),
     );
+    growEffect.onComplete = () => isSpawning = false;
+    add(growEffect);
   }
 
   @override
@@ -106,10 +111,12 @@ class MovingSquare extends RectangleComponent
     paint.color = currentColors[_random.nextInt(currentColors.length)];
 
     // son eklenen kucuk kare sorunu kodu baslangic
+    removeAll(children.whereType<TimerComponent>());
     removeAll(
       children.whereType<ScaleEffect>(),
     ); // YENİ: çakışan eski animasyonu temizle
     scale = Vector2.all(1.0); // YENİ: temiz taban
+    isSpawning = false;
 
     // son eklenen kucuk kare sorunu kodu bitis
 
@@ -135,12 +142,14 @@ class MovingSquare extends RectangleComponent
   void forceMutateToWhite() {
     type = SquareType.white;
     paint.color = Colors.white;
-
     // Mkucuk kare sorunu baslangic
+    removeAll(children.whereType<TimerComponent>());
     removeAll(
       children.whereType<ScaleEffect>(),
     ); // YENİ: çakışan eski animasyonu temizle
     scale = Vector2.all(1.0); // YENİ: temiz taban
+    isSpawning = false;
+
     // Mkucuk kare sorunu bitis
 
     // Mutasyon anında görsel şok (büyüyüp küçülme)

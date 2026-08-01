@@ -954,8 +954,10 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
       square.paint.color = Colors.white;
 
       // YENİ: aynı mutasyon animasyonunu burada da oynat, göze görünür olsun
+      square.removeAll(square.children.whereType<TimerComponent>());
       square.removeAll(square.children.whereType<ScaleEffect>());
       square.scale = Vector2.all(1.0);
+      square.isSpawning = false;
       square.add(
         SequenceEffect([
           ScaleEffect.to(
