@@ -45,6 +45,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
   int lastEarnedPoints = 0;
 
   bool get isGameOver => gameManager.gameOver;
+  VoidCallback? onReturnToMenu;
 
   @override
   Color backgroundColor() => Colors.transparent;
@@ -235,6 +236,30 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
       gameLevels[currentLevelIndex],
     );
     overlays.add('guessMenu');
+  }
+
+  void openPauseMenu() {
+    pauseEngine();
+    overlays.remove('hudButton');
+    overlays.add('pauseMenu');
+  }
+
+  void resumeFromPause() {
+    overlays.remove('pauseMenu');
+    overlays.add('hudButton');
+    resumeEngine();
+  }
+
+  void resumeIfPaused() {
+    if (overlays.isActive('pauseMenu')) {
+      overlays.remove('pauseMenu');
+      overlays.add('hudButton');
+      resumeEngine();
+    }
+  }
+
+  void exitToMenu() {
+    onReturnToMenu?.call();
   }
 
   void submitGuess(String guessedAnswer) async {
