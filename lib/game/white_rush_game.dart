@@ -7,6 +7,8 @@ import 'package:flame/particles.dart';
 import 'package:flutter/material.dart';
 import 'package:flame/effects.dart';
 import 'package:flame/collisions.dart';
+import 'package:flame_audio/flame_audio.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../components/fog_overlay.dart';
 import '../components/moving_square.dart';
@@ -68,8 +70,42 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
 
   DifficultyManager get difficulty => DifficultyManager(roundsCompleted);
 
+  bool _soundOn = true;
+  late AudioPool _tapPool;
+
+  Future<void> _loadSoundPreference() async {
+    final prefs = await SharedPreferences.getInstance();
+    _soundOn = prefs.getBool('soundOn') ?? true;
+  }
+
+  Future<void> refreshSoundPreference() async {
+    await _loadSoundPreference();
+  }
+
+  void playSfx(String fileName) {
+    if (!_soundOn) return;
+    FlameAudio.play('$fileName.mp3');
+  }
+
   @override
   Future<void> onLoad() async {
+    await _loadSoundPreference();
+    await FlameAudio.audioCache.loadAll([
+      'tap_correct.mp3',
+      'diamond_collect.mp3',
+      'combo_up.mp3',
+      'mutation.mp3',
+      'bomb_explode.mp3',
+      'game_over.mp3',
+      'level_complete.mp3',
+      'ultimate_spawn.mp3',
+      'ultimate_trigger.mp3',
+    ]);
+    _tapPool = await FlameAudio.createPool(
+      'tap_correct.mp3',
+      minPlayers: 4,
+      maxPlayers: 8,
+    );
     camera.viewfinder.anchor = Anchor.topLeft;
     await levelsRepository.load();
     await scoreManager.load();
@@ -151,6 +187,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
       final velocity = Vector2(cos(angle), sin(angle)) * 200.0;
 
       add(RainbowBall(position: Vector2(spawnX, spawnY), velocity: velocity));
+      playSfx('ultimate_spawn'); // YENİ
 
       // Bar dolduğunda hafif bir ekran titremesi (Opsiyonel gerilim efekti)
       camera.viewfinder.add(
@@ -278,6 +315,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
       lastEarnedPoints += (currentCombo * 10);
 
       await scoreManager.addPoints(lastEarnedPoints);
+      playSfx('level_complete'); // YENİ
 
       // Kareleri temizle, sisi tamamen kaldır: resim tam ekran görünsün
       children.whereType<MovingSquare>().forEach(
@@ -608,6 +646,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
 
   // YENİ EFEKT: İki beyaz kare çarpışıp renk değiştirdiğinde çıkan ufak duman/kıvılcım
   void showMutationEffect(Vector2 position) {
+    // playSfx('mutation'); // Dakikada çok sık tetikleniyor, rahatsız ediyor — kapatıldı
     add(
       ParticleSystemComponent(
         position: position,
@@ -767,6 +806,8 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
         _playComboIncreaseEffect();
         _showConfettiEffect(square.position);
         addUltimatePower(25.0);
+        playSfx('combo_up'); // YENİ
+        playSfx('diamond_collect'); // YENİ
       }
 
       int basePoint = square.type == SquareType.gold ? 5 : 1;
@@ -779,10 +820,9 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
         double revealSize = 25;
         fogOverlay.revealAt(square.toAbsoluteRect().inflate(revealSize));
         tilesRevealedThisLevel++;
-
-        // YENİ EFEKTİ BURADA ÇAĞIRIYORUZ!
         _showWhiteTapEffect(square.position);
         addUltimatePower(5.0);
+        if (_soundOn) _tapPool.start(); // YENİ
       }
     } else {
       currentCombo = 0;
@@ -908,6 +948,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
   }
 
   void _triggerGameOver() {
+    playSfx('game_over'); // YENİ
     gameManager.triggerGameOver();
     pauseEngine();
     overlays.remove('hudButton');
@@ -1314,6 +1355,7 @@ class RainbowBall extends PositionComponent
     );
 
     if (clicksLeft <= 0) {
+      game.playSfx('ultimate_trigger'); // YENİ
       game.triggerRainbowUltimate(position);
       removeFromParent(); // Topu yok et
     }

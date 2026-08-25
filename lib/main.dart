@@ -28,7 +28,8 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
     _game.onReturnToMenu = () => setState(() => _showMenu = true);
   }
 
-  void _startGame() {
+  void _startGame() async {
+    await _game.refreshSoundPreference();
     _game.resumeIfPaused();
     setState(() => _showMenu = false);
   }
@@ -53,7 +54,10 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                           top: 20,
                           right: 20,
                           child: GestureDetector(
-                            onTap: g.openGuessMenu,
+                            onTap: () {
+                              g.playSfx('ui_click');
+                              g.openGuessMenu();
+                            },
                             child: Container(
                               padding: const EdgeInsets.symmetric(
                                 horizontal: 20,
@@ -102,7 +106,10 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                           top: 70,
                           right: 20,
                           child: GestureDetector(
-                            onTap: g.openPauseMenu,
+                            onTap: () {
+                              g.playSfx('ui_click');
+                              g.openPauseMenu();
+                            },
                             child: Container(
                               padding: const EdgeInsets.all(10),
                               decoration: BoxDecoration(

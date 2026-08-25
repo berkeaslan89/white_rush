@@ -2,6 +2,7 @@ import 'how_to_play_dialog.dart';
 import 'package:flutter/material.dart';
 import '../services/save_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flame_audio/flame_audio.dart';
 
 class MainMenuScreen extends StatefulWidget {
   final VoidCallback onPlay;
@@ -16,6 +17,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
   int _bestScore = 0;
   int _savedLevel = 1;
   bool _loading = true;
+  bool _soundOn = true;
 
   @override
   void initState() {
@@ -23,7 +25,13 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
     _loadData();
   }
 
+  void _playClick() {
+    if (_soundOn) FlameAudio.play('ui_click.mp3');
+  }
+
   Future<void> _loadData() async {
+    final prefs = await SharedPreferences.getInstance();
+    _soundOn = prefs.getBool('soundOn') ?? true;
     final bestScore = await _saveManager.loadBestScore();
     final level = await _saveManager.loadLevel();
     setState(() {
@@ -33,7 +41,6 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
     });
 
     // YENİ: İlk açılışta kuralları otomatik göster
-    final prefs = await SharedPreferences.getInstance();
     final seenTutorial = prefs.getBool('seenTutorial') ?? false;
     if (!seenTutorial && mounted) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -81,7 +88,10 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                         borderRadius: BorderRadius.circular(30),
                       ),
                     ),
-                    onPressed: widget.onPlay,
+                    onPressed: () {
+                      _playClick();
+                      widget.onPlay();
+                    },
                     child: Text(
                       isNewPlayer ? "OYNA" : "DEVAM ET — Bölüm $_savedLevel",
                       style: const TextStyle(
@@ -93,11 +103,33 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                   ),
                   const SizedBox(height: 16),
                   TextButton.icon(
-                    onPressed: () => HowToPlayDialog.show(context),
+                    onPressed: () {
+                      _playClick();
+                      HowToPlayDialog.show(context);
+                    },
                     icon: const Icon(Icons.help_outline, color: Colors.white70),
                     label: const Text(
                       "Nasıl Oynanır?",
                       style: TextStyle(color: Colors.white70, fontSize: 15),
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  TextButton.icon(
+                    onPressed: () async {
+                      final prefs = await SharedPreferences.getInstance();
+                      setState(() => _soundOn = !_soundOn);
+                      await prefs.setBool('soundOn', _soundOn);
+                    },
+                    icon: Icon(
+                      _soundOn ? Icons.volume_up : Icons.volume_off,
+                      color: Colors.white70,
+                    ),
+                    label: Text(
+                      _soundOn ? "Ses Açık" : "Ses Kapalı",
+                      style: const TextStyle(
+                        color: Colors.white70,
+                        fontSize: 15,
+                      ),
                     ),
                   ),
                 ],
