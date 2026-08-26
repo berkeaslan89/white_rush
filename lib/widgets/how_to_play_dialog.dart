@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../services/app_strings.dart';
 
 class HowToPlayDialog extends StatelessWidget {
   const HowToPlayDialog({super.key});
@@ -18,8 +19,8 @@ class HowToPlayDialog extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              "Nasıl Oynanır?",
+            Text(
+              AppStrings.get('how_to_play_title'),
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
@@ -29,33 +30,33 @@ class HowToPlayDialog extends StatelessWidget {
             const SizedBox(height: 16),
             _rule(
               "⬜",
-              "Beyaz kareye dokun",
-              "Puan kazanırsın, resmin bir parçası açılır.",
+              AppStrings.get('rule1_title'),
+              AppStrings.get('rule1_desc'),
             ),
             _rule(
               "🔲",
-              "Gri (sahte beyaz) veya renkli kareye dokunma",
-              "Oyun anında biter.",
+              AppStrings.get('rule2_title'),
+              AppStrings.get('rule2_desc'),
             ),
             _rule(
               "💎",
-              "Elmasa dokun",
-              "Bonus puan! Ama süresi var, süre bitmeden yakala.",
+              AppStrings.get('rule3_title'),
+              AppStrings.get('rule3_desc'),
             ),
             _rule(
               "✨",
-              "İki beyaz kare çarpışırsa",
-              "Renk değiştirebilirler, dikkatli ol.",
+              AppStrings.get('rule4_title'),
+              AppStrings.get('rule4_desc'),
             ),
             _rule(
               "🌈",
-              "Güç barı dolunca",
-              "Gökkuşağı topuna 5 kere dokun, tüm kareler donup beyaza döner!",
+              AppStrings.get('rule5_title'),
+              AppStrings.get('rule5_desc'),
             ),
             _rule(
               "🔍",
-              "Yeterince kare açtıysan",
-              "\"Tahmin Et!\" butonuna bas, resmi bil, bir sonraki bölüme geç.",
+              AppStrings.get('rule6_title'),
+              AppStrings.get('rule6_desc'),
             ),
             const SizedBox(height: 20),
             Align(
@@ -65,7 +66,7 @@ class HowToPlayDialog extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.purpleAccent,
                 ),
-                child: const Text("Anladım"),
+                child: Text(AppStrings.get('got_it')),
               ),
             ),
           ],

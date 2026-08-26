@@ -103,7 +103,7 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                           ),
                         ),
                         Positioned(
-                          top: 70,
+                          top: 80,
                           right: 20,
                           child: GestureDetector(
                             onTap: () {
@@ -158,7 +158,10 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                                 backgroundColor: Colors.purpleAccent,
                                 minimumSize: const Size(200, 48),
                               ),
-                              onPressed: g.resumeFromPause,
+                              onPressed: () {
+                                g.playSfx('ui_click');
+                                g.resumeFromPause();
+                              },
                               child: const Text("Devam Et"),
                             ),
                             const SizedBox(height: 12),
@@ -167,7 +170,10 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                                 minimumSize: const Size(200, 48),
                                 side: const BorderSide(color: Colors.white54),
                               ),
-                              onPressed: g.exitToMenu,
+                              onPressed: () {
+                                g.playSfx('ui_click');
+                                g.exitToMenu();
+                              },
                               child: const Text(
                                 "Menüye Dön",
                                 style: TextStyle(color: Colors.white),

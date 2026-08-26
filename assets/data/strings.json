@@ -1,0 +1,102 @@
+{
+  "best_score": {
+    "tr": "En Yüksek Puan: {puan}",
+    "en": "Best Score: {puan}",
+    "ru": "Лучший результат: {puan}"
+  },
+  "play": {
+    "tr": "OYNA",
+    "en": "PLAY",
+    "ru": "ИГРАТЬ"
+  },
+  "resume": {
+    "tr": "DEVAM ET — Bölüm {bölüm}",
+    "en": "CONTINUE — Level {bölüm}",
+    "ru": "ПРОДОЛЖИТЬ — Уровень {bölüm}"
+  },
+  "how_to_play": {
+    "tr": "Nasıl Oynanır?",
+    "en": "How to Play?",
+    "ru": "Как играть?"
+  },
+  "sound_on": {
+    "tr": "Ses Açık",
+    "en": "Sound On",
+    "ru": "Звук вкл."
+  },
+  "sound_off": {
+    "tr": "Ses Kapalı",
+    "en": "Sound Off",
+    "ru": "Звук выкл."
+  },
+  "how_to_play_title": {
+    "tr": "Nasıl Oynanır?",
+    "en": "How to Play?",
+    "ru": "Как играть?"
+  },
+  "rule1_title": {
+    "tr": "Beyaz kareye dokun",
+    "en": "Tap the white square",
+    "ru": "Нажми на белый квадрат"
+  },
+  "rule1_desc": {
+    "tr": "Puan kazanırsın, resmin bir parçası açılır.",
+    "en": "You earn points and reveal part of the picture.",
+    "ru": "Ты получишь очки, и откроется часть картинки."
+  },
+  "rule2_title": {
+    "tr": "Gri (sahte beyaz) veya renkli kareye dokunma",
+    "en": "Don't tap the gray (fake white) or colored squares",
+    "ru": "Не нажимай на серый (поддельный белый) или цветной квадрат"
+  },
+  "rule2_desc": {
+    "tr": "Oyun anında biter.",
+    "en": "The game ends instantly.",
+    "ru": "Игра сразу заканчивается."
+  },
+  "rule3_title": {
+    "tr": "Elmasa dokun",
+    "en": "Tap the diamond",
+    "ru": "Нажми на алмаз"
+  },
+  "rule3_desc": {
+    "tr": "Bonus puan! Ama süresi var, süre bitmeden yakala.",
+    "en": "Bonus points! But it's timed — catch it before time runs out.",
+    "ru": "Бонусные очки! Но у него есть время — успей поймать."
+  },
+  "rule4_title": {
+    "tr": "İki beyaz kare çarpışırsa",
+    "en": "If two white squares collide",
+    "ru": "Если два белых квадрата столкнутся"
+  },
+  "rule4_desc": {
+    "tr": "Renk değiştirebilirler, dikkatli ol.",
+    "en": "They may change color, be careful.",
+    "ru": "Они могут поменять цвет, будь внимателен."
+  },
+  "rule5_title": {
+    "tr": "Güç barı dolunca",
+    "en": "When the power bar fills up",
+    "ru": "Когда шкала силы заполнится"
+  },
+  "rule5_desc": {
+    "tr": "Gökkuşağı topuna 5 kere dokun, tüm kareler donup beyaza döner!",
+    "en": "Tap the rainbow ball 5 times — all squares freeze and turn white!",
+    "ru": "Нажми на радужный шар 5 раз — все квадраты замрут и станут белыми!"
+  },
+  "rule6_title": {
+    "tr": "Yeterince kare açtıysan",
+    "en": "Once you've revealed enough squares",
+    "ru": "Когда откроешь достаточно квадратов"
+  },
+  "rule6_desc": {
+    "tr": "\"Tahmin Et!\" butonuna bas, resmi bil, bir sonraki bölüme geç.",
+    "en": "Press \"Guess!\", identify the picture, and move to the next level.",
+    "ru": "Нажми «Угадать!», назови картинку и переходи на следующий уровень."
+  },
+  "got_it": {
+    "tr": "Anladım",
+    "en": "Got it",
+    "ru": "Понятно"
+  }
+}

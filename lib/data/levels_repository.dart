@@ -17,6 +17,7 @@ class LevelsRepository {
     _levels = data
         .map((e) => LevelData.fromJson(e as Map<String, dynamic>))
         .toList();
+    _levels.shuffle(_random); // YENİ: her açılışta farklı sırayla gelsin
   }
 
   /// Doğru cevabı da içeren, karıştırılmış [count] şıklık liste.
