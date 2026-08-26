@@ -1456,7 +1456,7 @@ class UltimatePowerBar extends PositionComponent
     final barWidth = game.size.x * 0.8;
     final barHeight = 26.0; // Biraz daha kalınlaştırdık
     final startX = (game.size.x - barWidth) / 2;
-    final startY = 110.0;
+    final startY = 150.0;
 
     final rect = Rect.fromLTWH(startX, startY, barWidth, barHeight);
     final rrect = RRect.fromRectAndRadius(rect, const Radius.circular(15));
