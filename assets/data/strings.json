@@ -143,5 +143,25 @@
     "tr": "Geri Dön",
     "en": "Go Back",
     "ru": "Назад"
+  },
+  "game_over_title": {
+    "tr": "Oyun Bitti",
+    "en": "Game Over",
+    "ru": "Игра окончена"
+  },
+  "game_over_score": {
+    "tr": "Puan: {puan}",
+    "en": "Score: {puan}",
+    "ru": "Очки: {puan}"
+  },
+  "game_over_combo": {
+    "tr": "En İyi Combo: {sayı}",
+    "en": "Best Combo: {sayı}",
+    "ru": "Лучшее комбо: {sayı}"
+  },
+  "restart": {
+    "tr": "Yeniden Başla",
+    "en": "Restart",
+    "ru": "Заново"
   }
 }

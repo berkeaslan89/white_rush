@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import '../game/white_rush_game.dart';
+import '../services/app_strings.dart';
 
 class GameOverOverlay extends StatelessWidget {
   final WhiteRushGame game;
@@ -19,23 +19,27 @@ class GameOverOverlay extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text(
-              'Game Over',
+            Text(
+              AppStrings.get('game_over_title'),
               style: TextStyle(color: Colors.white, fontSize: 24),
             ),
             const SizedBox(height: 8),
             Text(
-              'Score: ${game.scoreManager.score}',
+              AppStrings.get('game_over_score', {
+                'puan': '${game.scoreManager.score}',
+              }),
               style: const TextStyle(color: Colors.white70, fontSize: 16),
             ),
             Text(
-              'Best Combo: ${game.scoreManager.bestCombo}',
+              AppStrings.get('game_over_combo', {
+                'sayı': '${game.scoreManager.bestCombo}',
+              }),
               style: const TextStyle(color: Colors.white70, fontSize: 16),
             ),
             const SizedBox(height: 16),
             ElevatedButton(
               onPressed: game.restart,
-              child: const Text('Restart'),
+              child: Text(AppStrings.get('restart')),
             ),
           ],
         ),
