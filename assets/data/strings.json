@@ -163,5 +163,15 @@
     "tr": "Yeniden Başla",
     "en": "Restart",
     "ru": "Заново"
+  },
+  "success_title": {
+    "tr": "HARİKA!",
+    "en": "AWESOME!",
+    "ru": "ОТЛИЧНО!"
+  },
+  "success_points": {
+    "tr": "+{puan} Puan Kazandın",
+    "en": "+{puan} Points Earned",
+    "ru": "+{puan} очков получено"
   }
 }

@@ -281,16 +281,18 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                                     size: 80,
                                   ),
                                   const SizedBox(height: 10),
-                                  const Text(
-                                    "HARİKA!",
-                                    style: TextStyle(
+                                  Text(
+                                    AppStrings.get('success_title'),
+                                    style: const TextStyle(
                                       fontSize: 36,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
                                     ),
                                   ),
                                   Text(
-                                    "+${g.lastEarnedPoints} Puan Kazandın",
+                                    AppStrings.get('success_points', {
+                                      'puan': '${g.lastEarnedPoints}',
+                                    }),
                                     style: const TextStyle(
                                       fontSize: 20,
                                       color: Colors.white,
