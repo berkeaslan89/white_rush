@@ -31,27 +31,41 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
   }
 
   void _playClick() {
-    if (_soundOn) _clickPool.start();
+    if (_soundOn) {
+      try {
+        _clickPool.start();
+      } catch (_) {}
+    }
   }
 
   Future<void> _loadData() async {
-    await AppStrings.load();
-    _clickPool = await FlameAudio.createPool(
-      'ui_click.mp3',
-      minPlayers: 2,
-      maxPlayers: 4,
-    );
+    try {
+      _clickPool = await FlameAudio.createPool(
+        'ui_click.mp3',
+        minPlayers: 2,
+        maxPlayers: 4,
+      );
+    } catch (e) {
+      debugPrint('Ses havuzu kurulamadı: $e');
+    }
+
+    try {
+      await AppStrings.load();
+    } catch (e) {
+      debugPrint('Dil dosyası yüklenemedi: $e');
+    }
+
     final prefs = await SharedPreferences.getInstance();
     _soundOn = prefs.getBool('soundOn') ?? true;
     final bestScore = await _saveManager.loadBestScore();
     final level = await _saveManager.loadLevel();
+
     setState(() {
       _bestScore = bestScore;
       _savedLevel = level < 1 ? 1 : level;
       _loading = false;
     });
 
-    // YENİ: İlk açılışta kuralları otomatik göster
     final seenTutorial = prefs.getBool('seenTutorial') ?? false;
     if (!seenTutorial && mounted) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
