@@ -17,7 +17,7 @@ class MenuBackgroundGame extends FlameGame {
 
   @override
   Future<void> onLoad() async {
-    for (int i = 0; i < 14; i++) {
+    for (int i = 0; i < 9; i++) {
       add(_buildDecoSquare());
     }
 

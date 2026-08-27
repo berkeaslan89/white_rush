@@ -18,6 +18,7 @@ import '../managers/difficulty_manager.dart';
 import '../models/square_type.dart';
 import '../data/level_data.dart';
 import '../data/levels_repository.dart';
+import '../services/app_strings.dart';
 
 class WhiteRushGame extends FlameGame with HasCollisionDetection {
   final random = Random();
@@ -123,20 +124,24 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     fogOverlay = FogOverlay(size: size);
     add(fogOverlay);
 
+    add(HudPanel(position: Vector2(8, 8), size: Vector2(210, 100)));
+
     scoreText = TextComponent(
       text: "Puan: ${scoreManager.score}",
       position: Vector2(15, 15),
       priority: 100,
     );
     levelText = TextComponent(
-      text: "Bölüm: ${currentLevelIndex + 1}",
+      text: AppStrings.get('level_label', {
+        'bölüm': '${currentLevelIndex + 1}',
+      }),
       position: Vector2(15, 45),
       priority: 100,
     );
 
     // COMBO YAZISI AYARLANDI (Büyürken sağa doğru patlaması için Anchor.centerLeft yapıldı)
     comboText = TextComponent(
-      text: "Combo: x0",
+      text: AppStrings.get('combo_label', {'sayı': '0'}),
       position: Vector2(
         15,
         85,
@@ -835,11 +840,19 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
   }
 
   void _updateTexts() {
-    scoreText.text = "Puan: ${scoreManager.score}";
-    comboText.text = currentCombo > 2
-        ? "Combo: x$currentCombo 🔥"
-        : "Combo: x$currentCombo";
-    levelText.text = "Bölüm: ${roundsCompleted + 1}";
+    scoreText.text = AppStrings.get('score_label', {
+      'puan': '${scoreManager.score}',
+    });
+    final comboBase = AppStrings.get('combo_label', {'sayı': '$currentCombo'});
+    comboText.text = currentCombo > 2 ? "$comboBase 🔥" : comboBase;
+    levelText.text = AppStrings.get('level_label', {
+      'bölüm': '${roundsCompleted + 1}',
+    });
+  }
+
+  void refreshLanguageTexts() {
+    if (!isLoaded) return;
+    _updateTexts();
   }
 
   // GÜNCELLENDİ: scale sıfırlaması
@@ -1104,6 +1117,18 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
       case SquareType.gold:
         return Colors.transparent;
     }
+  }
+}
+
+class HudPanel extends PositionComponent {
+  HudPanel({required Vector2 position, required Vector2 size})
+    : super(position: position, size: size, priority: 99);
+
+  @override
+  void render(Canvas canvas) {
+    final rect = Rect.fromLTWH(0, 0, size.x, size.y);
+    final rrect = RRect.fromRectAndRadius(rect, const Radius.circular(14));
+    canvas.drawRRect(rrect, Paint()..color = const Color(0xAA000000));
   }
 }
 

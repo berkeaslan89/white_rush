@@ -192,6 +192,11 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: ['tr', 'en', 'ru'].map((lang) {
                         final isActive = AppStrings.currentLang == lang;
+                        const flags = {
+                          'tr': '🇹🇷',
+                          'en': '🇬🇧',
+                          'ru': '🇷🇺',
+                        };
                         return Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 6),
                           child: GestureDetector(
@@ -217,7 +222,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                                 ),
                               ),
                               child: Text(
-                                lang.toUpperCase(),
+                                '${flags[lang]}  ${lang.toUpperCase()}',
                                 style: TextStyle(
                                   color: isActive
                                       ? Colors.tealAccent

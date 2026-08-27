@@ -98,5 +98,50 @@
     "tr": "Anladım",
     "en": "Got it",
     "ru": "Понятно"
+  },
+  "paused_title": {
+    "tr": "Duraklatıldı",
+    "en": "Paused",
+    "ru": "Пауза"
+  },
+  "resume_pause": {
+    "tr": "Devam Et",
+    "en": "Resume",
+    "ru": "Продолжить"
+  },
+  "back_to_menu": {
+    "tr": "Menüye Dön",
+    "en": "Back to Menu",
+    "ru": "В меню"
+  },
+  "score_label": {
+    "tr": "Puan: {puan}",
+    "en": "Score: {puan}",
+    "ru": "Очки: {puan}"
+  },
+  "level_label": {
+    "tr": "Bölüm: {bölüm}",
+    "en": "Level: {bölüm}",
+    "ru": "Уровень: {bölüm}"
+  },
+  "combo_label": {
+    "tr": "Combo: x{sayı}",
+    "en": "Combo: x{sayı}",
+    "ru": "Комбо: x{sayı}"
+  },
+  "guess_button": {
+    "tr": "Tahmin Et!",
+    "en": "Guess!",
+    "ru": "Угадать!"
+  },
+  "guess_title": {
+    "tr": "Resimdeki Kim/Ne?",
+    "en": "Who/What is it?",
+    "ru": "Кто/Что на картинке?"
+  },
+  "cancel_guess": {
+    "tr": "Geri Dön",
+    "en": "Go Back",
+    "ru": "Назад"
   }
 }

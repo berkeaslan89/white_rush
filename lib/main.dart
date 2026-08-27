@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'game/white_rush_game.dart';
 import 'widgets/game_over_overlay.dart';
 import 'widgets/main_menu_screen.dart';
+import 'widgets/hud_guess_button.dart';
+import 'services/app_strings.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,6 +32,7 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
 
   void _startGame() async {
     await _game.refreshSoundPreference();
+    _game.refreshLanguageTexts();
     _game.resumeIfPaused();
     setState(() => _showMenu = false);
   }
@@ -53,53 +56,12 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                         Positioned(
                           top: 20,
                           right: 20,
-                          child: GestureDetector(
+                          child: HudGuessButton(
+                            label: AppStrings.get('guess_button'),
                             onTap: () {
                               g.playSfx('ui_click');
                               g.openGuessMenu();
                             },
-                            child: Container(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 20,
-                                vertical: 12,
-                              ),
-                              decoration: BoxDecoration(
-                                gradient: const LinearGradient(
-                                  colors: [Colors.purple, Colors.blue],
-                                ),
-                                borderRadius: BorderRadius.circular(25),
-                                boxShadow: const [
-                                  BoxShadow(
-                                    color: Colors.black45,
-                                    blurRadius: 5,
-                                    offset: Offset(2, 2),
-                                  ),
-                                ],
-                                border: Border.all(
-                                  color: Colors.white,
-                                  width: 2,
-                                ),
-                              ),
-                              child: const Row(
-                                mainAxisSize: MainAxisSize.min,
-                                children: [
-                                  Icon(
-                                    Icons.search,
-                                    color: Colors.white,
-                                    size: 20,
-                                  ),
-                                  SizedBox(width: 8),
-                                  Text(
-                                    "Tahmin Et!",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 16,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
                           ),
                         ),
                         Positioned(
@@ -144,8 +106,8 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            const Text(
-                              "Duraklatıldı",
+                            Text(
+                              AppStrings.get('paused_title'),
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 22,
@@ -162,7 +124,7 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                                 g.playSfx('ui_click');
                                 g.resumeFromPause();
                               },
-                              child: const Text("Devam Et"),
+                              child: Text(AppStrings.get('resume_pause')),
                             ),
                             const SizedBox(height: 12),
                             OutlinedButton(
@@ -174,8 +136,8 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                                 g.playSfx('ui_click');
                                 g.exitToMenu();
                               },
-                              child: const Text(
-                                "Menüye Dön",
+                              child: Text(
+                                AppStrings.get('back_to_menu'),
                                 style: TextStyle(color: Colors.white),
                               ),
                             ),
@@ -210,8 +172,8 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                               color: Colors.blueAccent,
                             ),
                             const SizedBox(height: 10),
-                            const Text(
-                              "Resimdeki Kim/Ne?",
+                            Text(
+                              AppStrings.get('guess_title'),
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.w900,
@@ -268,8 +230,8 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                                 Icons.arrow_back,
                                 color: Colors.grey,
                               ),
-                              label: const Text(
-                                "Vazgeç, kazımaya devam et",
+                              label: Text(
+                                AppStrings.get('cancel_guess'),
                                 style: TextStyle(
                                   color: Colors.grey,
                                   fontSize: 16,
