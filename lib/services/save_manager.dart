@@ -44,4 +44,14 @@ class SaveManager {
     final prefs = await SharedPreferences.getInstance();
     return prefs.getInt(_levelKey) ?? 1;
   }
+
+  Future<int> loadLevelForCategory(String category) async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt('savedLevel_$category') ?? 1;
+  }
+
+  Future<void> saveLevelForCategory(String category, int level) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt('savedLevel_$category', level);
+  }
 }

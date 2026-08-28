@@ -173,5 +173,20 @@
     "tr": "+{puan} Puan Kazandın",
     "en": "+{puan} Points Earned",
     "ru": "+{puan} очков получено"
+  },
+  "category_karakter": {
+    "tr": "Karakterler",
+    "en": "Characters",
+    "ru": "Персонажи"
+  },
+  "category_bayrak": {
+    "tr": "Ülke Bayrakları",
+    "en": "Country Flags",
+    "ru": "Флаги стран"
+  },
+  "guess_title_bayrak": {
+    "tr": "Bu Hangi Ülkenin Bayrağı?",
+    "en": "Which Country's Flag Is This?",
+    "ru": "Флаг какой страны?"
   }
 }

@@ -30,11 +30,24 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
     _game.onReturnToMenu = () => setState(() => _showMenu = true);
   }
 
-  void _startGame() async {
+  void _startGame(String category) async {
     await _game.refreshSoundPreference();
     _game.refreshLanguageTexts();
+
+    final needsCategorySwitch =
+        _game.isLoaded && _game.selectedCategory != category;
+    if (!needsCategorySwitch) {
+      _game.selectedCategory = category;
+    }
+
     _game.resumeIfPaused();
     setState(() => _showMenu = false);
+
+    if (needsCategorySwitch) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _game.setCategoryAndReset(category);
+      });
+    }
   }
 
   @override
@@ -173,7 +186,9 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                             ),
                             const SizedBox(height: 10),
                             Text(
-                              AppStrings.get('guess_title'),
+                              g.selectedCategory == 'bayrak'
+                                  ? AppStrings.get('guess_title_bayrak')
+                                  : AppStrings.get('guess_title'),
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.w900,

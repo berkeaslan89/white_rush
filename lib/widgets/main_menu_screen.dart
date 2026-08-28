@@ -8,7 +8,7 @@ import 'menu_background_game.dart';
 import '../services/app_strings.dart';
 
 class MainMenuScreen extends StatefulWidget {
-  final VoidCallback onPlay;
+  final void Function(String category) onPlay;
   const MainMenuScreen({super.key, required this.onPlay});
 
   @override
@@ -21,6 +21,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
   int _savedLevel = 1;
   bool _loading = true;
   bool _soundOn = true;
+  String _selectedCategory = 'karakter';
   late AudioPool _clickPool;
   final _bgGame = MenuBackgroundGame();
 
@@ -57,12 +58,15 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
 
     final prefs = await SharedPreferences.getInstance();
     _soundOn = prefs.getBool('soundOn') ?? true;
+    _selectedCategory = prefs.getString('selectedCategory') ?? 'karakter';
+    final savedLevelForCat = await _saveManager.loadLevelForCategory(
+      _selectedCategory,
+    );
     final bestScore = await _saveManager.loadBestScore();
-    final level = await _saveManager.loadLevel();
 
     setState(() {
       _bestScore = bestScore;
-      _savedLevel = level < 1 ? 1 : level;
+      _savedLevel = savedLevelForCat < 1 ? 1 : savedLevelForCat;
       _loading = false;
     });
 
@@ -148,7 +152,24 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 40),
+                    const SizedBox(height: 24),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        _categoryChip(
+                          'karakter',
+                          AppStrings.get('category_karakter'),
+                          Icons.face,
+                        ),
+                        const SizedBox(width: 10),
+                        _categoryChip(
+                          'bayrak',
+                          AppStrings.get('category_bayrak'),
+                          Icons.flag,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 24),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(
@@ -162,7 +183,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                       ),
                       onPressed: () {
                         _playClick();
-                        widget.onPlay();
+                        widget.onPlay(_selectedCategory);
                       },
                       child: Text(
                         isNewPlayer
@@ -283,6 +304,53 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                 color: color,
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _categoryChip(String value, String label, IconData icon) {
+    final isActive = _selectedCategory == value;
+    return GestureDetector(
+      onTap: () async {
+        _playClick();
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setString('selectedCategory', value);
+        final lvl = await _saveManager.loadLevelForCategory(value);
+        setState(() {
+          _selectedCategory = value;
+          _savedLevel = lvl < 1 ? 1 : lvl;
+        });
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+        decoration: BoxDecoration(
+          color: isActive
+              ? Colors.purpleAccent.withValues(alpha: 0.25)
+              : Colors.transparent,
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(
+            color: isActive ? Colors.purpleAccent : Colors.white24,
+          ),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              icon,
+              color: isActive ? Colors.purpleAccent : Colors.white54,
+              size: 18,
+            ),
+            const SizedBox(width: 6),
+            Text(
+              label,
+              style: TextStyle(
+                color: isActive ? Colors.purpleAccent : Colors.white54,
+                fontWeight: FontWeight.bold,
+                fontSize: 13,
               ),
             ),
           ],

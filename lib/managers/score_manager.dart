@@ -25,6 +25,20 @@ class ScoreManager {
     }
   }
 
+  Future<int> loadLevelForCategory(String category) {
+    return saveManager.loadLevelForCategory(category);
+  }
+
+  Future<void> updateSavedLevelForCategory(
+    String category,
+    int roundsCompleted,
+  ) async {
+    final current = await saveManager.loadLevelForCategory(category);
+    if (roundsCompleted + 1 > current) {
+      await saveManager.saveLevelForCategory(category, roundsCompleted + 1);
+    }
+  }
+
   // Elmas serisi (currentCombo) her arttığında WhiteRushGame'den çağrılır.
   Future<void> registerCombo(int combo) async {
     if (combo > bestCombo) {

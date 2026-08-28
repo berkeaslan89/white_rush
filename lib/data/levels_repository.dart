@@ -11,6 +11,10 @@ class LevelsRepository {
   List<LevelData> _levels = [];
   List<LevelData> get levels => _levels;
 
+  List<LevelData> byCategory(String category) {
+    return _levels.where((l) => l.category == category).toList();
+  }
+
   Future<void> load() async {
     final raw = await rootBundle.loadString(_jsonPath);
     final List<dynamic> data = jsonDecode(raw) as List<dynamic>;

@@ -25,7 +25,8 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
   final scoreManager = ScoreManager();
   final gameManager = GameManager();
   final levelsRepository = LevelsRepository();
-  List<LevelData> get gameLevels => levelsRepository.levels;
+  List<LevelData> get gameLevels =>
+      levelsRepository.byCategory(selectedCategory);
   List<String> currentOptions = [];
   // --- ULTIMATE GÜÇ BARI DEĞİŞKENLERİ ---
   double ultimatePower = 0.0;
@@ -42,6 +43,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
   late FogOverlay fogOverlay;
 
   int currentLevelIndex = 0;
+  String selectedCategory = 'karakter';
   int tilesRevealedThisLevel = 0;
   int currentCombo = 0;
   int roundsCompleted = 0; // hiç sıfırlanmayan zorluk/resume sayacı
@@ -110,7 +112,8 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     camera.viewfinder.anchor = Anchor.topLeft;
     await levelsRepository.load();
     await scoreManager.load();
-    roundsCompleted = scoreManager.savedLevel - 1;
+    roundsCompleted =
+        (await scoreManager.loadLevelForCategory(selectedCategory)) - 1;
     //roundsCompleted = 99; // test için level 100 yapma kodu
 
     currentLevelIndex = roundsCompleted % gameLevels.length;
@@ -348,7 +351,10 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
 
   Future<void> _nextLevel() async {
     roundsCompleted++;
-    await scoreManager.updateSavedLevel(roundsCompleted);
+    await scoreManager.updateSavedLevelForCategory(
+      selectedCategory,
+      roundsCompleted,
+    );
     currentLevelIndex = roundsCompleted % gameLevels.length;
     tilesRevealedThisLevel = 0;
     currentCombo = 0;
@@ -971,7 +977,8 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
   void restart() async {
     gameManager.reset();
     scoreManager.reset();
-    roundsCompleted = scoreManager.savedLevel - 1;
+    roundsCompleted =
+        (await scoreManager.loadLevelForCategory(selectedCategory)) - 1;
     currentLevelIndex = roundsCompleted % gameLevels.length;
     tilesRevealedThisLevel = 0;
     currentCombo = 0;
@@ -989,6 +996,25 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     overlays.remove('gameOver');
     overlays.add('hudButton');
     resumeEngine();
+  }
+
+  Future<void> setCategoryAndReset(String category) async {
+    pauseEngine(); // YENİ: değişim sırasında motor kontrollü şekilde dursun
+    selectedCategory = category;
+    roundsCompleted = (await scoreManager.loadLevelForCategory(category)) - 1;
+    currentLevelIndex = roundsCompleted % gameLevels.length;
+    tilesRevealedThisLevel = 0;
+    currentCombo = 0;
+    scoreManager.reset();
+    _updateTexts();
+
+    final levelData = gameLevels[currentLevelIndex];
+    backgroundImage.sprite = await loadSprite(levelData.imagePath);
+    fogOverlay.resetOverlay();
+
+    children.whereType<MovingSquare>().forEach((s) => s.removeFromParent());
+    _spawnSquares();
+    resumeEngine(); // YENİ: her şey bittikten sonra tek seferde devam
   }
 
   // YENİ: Ekrandaki beyaz kare sayısını garanti altına alan kota sistemi
