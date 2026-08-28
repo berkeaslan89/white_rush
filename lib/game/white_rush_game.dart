@@ -1005,6 +1005,8 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     currentLevelIndex = roundsCompleted % gameLevels.length;
     tilesRevealedThisLevel = 0;
     currentCombo = 0;
+    ultimatePower = 0.0; // YENİ
+    isFreezeActive = false; // YENİ
     scoreManager.reset();
     _updateTexts();
 

@@ -167,6 +167,12 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                           AppStrings.get('category_bayrak'),
                           Icons.flag,
                         ),
+
+                        _categoryChip(
+                          'hayvan',
+                          AppStrings.get('category_hayvan'),
+                          Icons.pets,
+                        ),
                       ],
                     ),
                     const SizedBox(height: 24),

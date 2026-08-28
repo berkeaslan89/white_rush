@@ -1748,5 +1748,460 @@
     "imagePath": "flag_zw.jpg",
     "correctAnswer": "Zimbabwe",
     "category": "bayrak"
+  },
+  {
+    "imagePath": "animal_lion.jpg",
+    "correctAnswer": "Lion",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_tiger.jpg",
+    "correctAnswer": "Tiger",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_leopard.jpg",
+    "correctAnswer": "Leopard",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_elephant.jpg",
+    "correctAnswer": "Elephant",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_giraffe.jpg",
+    "correctAnswer": "Giraffe",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_zebra.jpg",
+    "correctAnswer": "Zebra",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_rhinoceros.jpg",
+    "correctAnswer": "Rhinoceros",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_hippopotamus.jpg",
+    "correctAnswer": "Hippopotamus",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_bear.jpg",
+    "correctAnswer": "Bear",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_polar_bear.jpg",
+    "correctAnswer": "Polar Bear",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_panda.jpg",
+    "correctAnswer": "Panda",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_koala.jpg",
+    "correctAnswer": "Koala",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_kangaroo.jpg",
+    "correctAnswer": "Kangaroo",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_monkey.jpg",
+    "correctAnswer": "Monkey",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_gorilla.jpg",
+    "correctAnswer": "Gorilla",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_orangutan.jpg",
+    "correctAnswer": "Orangutan",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_wolf.jpg",
+    "correctAnswer": "Wolf",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_fox.jpg",
+    "correctAnswer": "Fox",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_raccoon.jpg",
+    "correctAnswer": "Raccoon",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_dog.jpg",
+    "correctAnswer": "Dog",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_cat.jpg",
+    "correctAnswer": "Cat",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_rabbit.jpg",
+    "correctAnswer": "Rabbit",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_hedgehog.jpg",
+    "correctAnswer": "Hedgehog",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_bat.jpg",
+    "correctAnswer": "Bat",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_deer.jpg",
+    "correctAnswer": "Deer",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_camel.jpg",
+    "correctAnswer": "Camel",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_llama.jpg",
+    "correctAnswer": "Llama",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_horse.jpg",
+    "correctAnswer": "Horse",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_cow.jpg",
+    "correctAnswer": "Cow",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_pig.jpg",
+    "correctAnswer": "Pig",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_sheep.jpg",
+    "correctAnswer": "Sheep",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_goat.jpg",
+    "correctAnswer": "Goat",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_chicken.jpg",
+    "correctAnswer": "Chicken",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_rooster.jpg",
+    "correctAnswer": "Rooster",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_turkey.jpg",
+    "correctAnswer": "Turkey",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_duck.jpg",
+    "correctAnswer": "Duck",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_swan.jpg",
+    "correctAnswer": "Swan",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_owl.jpg",
+    "correctAnswer": "Owl",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_eagle.jpg",
+    "correctAnswer": "Eagle",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_parrot.jpg",
+    "correctAnswer": "Parrot",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_flamingo.jpg",
+    "correctAnswer": "Flamingo",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_peacock.jpg",
+    "correctAnswer": "Peacock",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_penguin.jpg",
+    "correctAnswer": "Penguin",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_dove.jpg",
+    "correctAnswer": "Dove",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_crow.jpg",
+    "correctAnswer": "Crow",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_ostrich.jpg",
+    "correctAnswer": "Ostrich",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_dolphin.jpg",
+    "correctAnswer": "Dolphin",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_whale.jpg",
+    "correctAnswer": "Whale",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_shark.jpg",
+    "correctAnswer": "Shark",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_fish.jpg",
+    "correctAnswer": "Fish",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_octopus.jpg",
+    "correctAnswer": "Octopus",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_squid.jpg",
+    "correctAnswer": "Squid",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_crab.jpg",
+    "correctAnswer": "Crab",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_lobster.jpg",
+    "correctAnswer": "Lobster",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_shrimp.jpg",
+    "correctAnswer": "Shrimp",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_turtle.jpg",
+    "correctAnswer": "Turtle",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_crocodile.jpg",
+    "correctAnswer": "Crocodile",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_snake.jpg",
+    "correctAnswer": "Snake",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_lizard.jpg",
+    "correctAnswer": "Lizard",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_frog.jpg",
+    "correctAnswer": "Frog",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_snail.jpg",
+    "correctAnswer": "Snail",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_butterfly.jpg",
+    "correctAnswer": "Butterfly",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_bee.jpg",
+    "correctAnswer": "Bee",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_ladybug.jpg",
+    "correctAnswer": "Ladybug",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_ant.jpg",
+    "correctAnswer": "Ant",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_spider.jpg",
+    "correctAnswer": "Spider",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_scorpion.jpg",
+    "correctAnswer": "Scorpion",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_mosquito.jpg",
+    "correctAnswer": "Mosquito",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_cricket.jpg",
+    "correctAnswer": "Cricket",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_squirrel.jpg",
+    "correctAnswer": "Squirrel",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_otter.jpg",
+    "correctAnswer": "Otter",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_skunk.jpg",
+    "correctAnswer": "Skunk",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_badger.jpg",
+    "correctAnswer": "Badger",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_sloth.jpg",
+    "correctAnswer": "Sloth",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_mammoth.jpg",
+    "correctAnswer": "Mammoth",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_bison.jpg",
+    "correctAnswer": "Bison",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_water_buffalo.jpg",
+    "correctAnswer": "Water Buffalo",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_ox.jpg",
+    "correctAnswer": "Ox",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_boar.jpg",
+    "correctAnswer": "Boar",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_mouse.jpg",
+    "correctAnswer": "Mouse",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_rat.jpg",
+    "correctAnswer": "Rat",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_hamster.jpg",
+    "correctAnswer": "Hamster",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_chipmunk.jpg",
+    "correctAnswer": "Chipmunk",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_seal.jpg",
+    "correctAnswer": "Seal",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_unicorn.jpg",
+    "correctAnswer": "Unicorn",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_dragon.jpg",
+    "correctAnswer": "Dragon",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_dinosaur.jpg",
+    "correctAnswer": "Dinosaur",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_t_rex.jpg",
+    "correctAnswer": "T-Rex",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_chick.jpg",
+    "correctAnswer": "Chick",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_baby_chick.jpg",
+    "correctAnswer": "Baby Chick",
+    "category": "hayvan"
+  },
+  {
+    "imagePath": "animal_cricket_insect.jpg",
+    "correctAnswer": "Cricket Insect",
+    "category": "hayvan"
   }
 ]

@@ -188,5 +188,15 @@
     "tr": "Bu Hangi Ülkenin Bayrağı?",
     "en": "Which Country's Flag Is This?",
     "ru": "Флаг какой страны?"
+  },
+  "category_hayvan": {
+    "tr": "Hayvanlar",
+    "en": "Animals",
+    "ru": "Животные"
+  },
+  "guess_title_hayvan": {
+    "tr": "Bu Hangi Hayvan?",
+    "en": "Which Animal Is This?",
+    "ru": "Какое это животное?"
   }
 }
