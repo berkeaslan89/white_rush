@@ -198,5 +198,20 @@
     "tr": "Bu Hangi Hayvan?",
     "en": "Which Animal Is This?",
     "ru": "Какое это животное?"
+  },
+  "category_nesne": {
+    "tr": "Nesneler",
+    "en": "Objects",
+    "ru": "Предметы"
+  },
+  "guess_title_nesne": {
+    "tr": "Bu Ne?",
+    "en": "What Is This?",
+    "ru": "Что это?"
+  },
+  "choose_category": {
+    "tr": "Kategori Seç",
+    "en": "Choose Category",
+    "ru": "Выберите категорию"
   }
 }

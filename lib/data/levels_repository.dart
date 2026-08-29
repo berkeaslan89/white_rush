@@ -26,15 +26,16 @@ class LevelsRepository {
 
   /// Doğru cevabı da içeren, karıştırılmış [count] şıklık liste.
   /// Yanlış şıklar öncelikle aynı kategoriden seçilir.
-  List<String> buildOptions(LevelData level, {int count = 3}) {
+  List<String> buildOptions(LevelData level, String lang, {int count = 3}) {
+    final correct = level.answerFor(lang);
+
     final sameCategory =
         _levels
             .where(
               (l) =>
-                  l.category == level.category &&
-                  l.correctAnswer != level.correctAnswer,
+                  l.category == level.category && l.answerFor(lang) != correct,
             )
-            .map((l) => l.correctAnswer)
+            .map((l) => l.answerFor(lang))
             .toSet()
             .toList()
           ..shuffle(_random);
@@ -43,10 +44,9 @@ class LevelsRepository {
         _levels
             .where(
               (l) =>
-                  l.category != level.category &&
-                  l.correctAnswer != level.correctAnswer,
+                  l.category != level.category && l.answerFor(lang) != correct,
             )
-            .map((l) => l.correctAnswer)
+            .map((l) => l.answerFor(lang))
             .toSet()
             .toList()
           ..shuffle(_random);
@@ -58,7 +58,7 @@ class LevelsRepository {
       );
     }
 
-    final options = [level.correctAnswer, ...wrongOptions];
+    final options = [correct, ...wrongOptions];
     options.shuffle(_random);
     return options;
   }

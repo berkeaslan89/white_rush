@@ -90,6 +90,24 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     FlameAudio.play('$fileName.mp3');
   }
 
+  Future<Sprite> _loadLevelSprite() async {
+    final total = gameLevels.length;
+    for (int attempt = 0; attempt < total; attempt++) {
+      final idx = (currentLevelIndex + attempt) % total;
+      final data = gameLevels[idx];
+      try {
+        final sprite = await loadSprite(data.imagePath);
+        currentLevelIndex = idx;
+        return sprite;
+      } catch (e) {
+        debugPrint('Resim eksik/bozuk, atlanıyor: ${data.imagePath}');
+      }
+    }
+    throw Exception(
+      'Bu kategoride yüklenebilir hiç resim yok: $selectedCategory',
+    );
+  }
+
   @override
   Future<void> onLoad() async {
     await _loadSoundPreference();
@@ -118,8 +136,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
 
     currentLevelIndex = roundsCompleted % gameLevels.length;
 
-    final currentLevelData = gameLevels[currentLevelIndex];
-    final sprite = await loadSprite(currentLevelData.imagePath);
+    final sprite = await _loadLevelSprite();
 
     backgroundImage = SpriteComponent(sprite: sprite, size: size);
     add(backgroundImage);
@@ -279,6 +296,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     overlays.remove('hudButton');
     currentOptions = levelsRepository.buildOptions(
       gameLevels[currentLevelIndex],
+      AppStrings.currentLang,
     );
     overlays.add('guessMenu');
   }
@@ -310,7 +328,9 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
   void submitGuess(String guessedAnswer) async {
     overlays.remove('guessMenu');
 
-    final correctAnswer = gameLevels[currentLevelIndex].correctAnswer;
+    final correctAnswer = gameLevels[currentLevelIndex].answerFor(
+      AppStrings.currentLang,
+    );
 
     if (guessedAnswer == correctAnswer) {
       int maxReward = 500;
@@ -360,8 +380,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     currentCombo = 0;
     _updateTexts();
 
-    final newLevelData = gameLevels[currentLevelIndex];
-    backgroundImage.sprite = await loadSprite(newLevelData.imagePath);
+    backgroundImage.sprite = await _loadLevelSprite();
     fogOverlay.resetOverlay();
 
     children.whereType<MovingSquare>().forEach(
@@ -984,8 +1003,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     currentCombo = 0;
     _updateTexts();
 
-    final firstLevelData = gameLevels[currentLevelIndex];
-    backgroundImage.sprite = await loadSprite(firstLevelData.imagePath);
+    backgroundImage.sprite = await _loadLevelSprite();
     fogOverlay.resetOverlay();
 
     children.whereType<MovingSquare>().forEach(
@@ -1010,8 +1028,7 @@ class WhiteRushGame extends FlameGame with HasCollisionDetection {
     scoreManager.reset();
     _updateTexts();
 
-    final levelData = gameLevels[currentLevelIndex];
-    backgroundImage.sprite = await loadSprite(levelData.imagePath);
+    backgroundImage.sprite = await _loadLevelSprite();
     fogOverlay.resetOverlay();
 
     children.whereType<MovingSquare>().forEach((s) => s.removeFromParent());

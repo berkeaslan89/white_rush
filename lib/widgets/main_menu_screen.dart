@@ -6,6 +6,7 @@ import 'package:flame_audio/flame_audio.dart';
 import 'package:flame/game.dart';
 import 'menu_background_game.dart';
 import '../services/app_strings.dart';
+import 'category_select_screen.dart';
 
 class MainMenuScreen extends StatefulWidget {
   final void Function(String category) onPlay;
@@ -153,27 +154,66 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                       ),
                     ),
                     const SizedBox(height: 24),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        _categoryChip(
-                          'karakter',
-                          AppStrings.get('category_karakter'),
-                          Icons.face,
+                    Text(
+                      AppStrings.get('choose_category'),
+                      style: const TextStyle(
+                        color: Colors.white54,
+                        fontSize: 12,
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    GestureDetector(
+                      onTap: () async {
+                        _playClick();
+                        final result = await Navigator.push<String>(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => CategorySelectScreen(
+                              currentCategory: _selectedCategory,
+                            ),
+                          ),
+                        );
+                        if (result != null && result != _selectedCategory) {
+                          final prefs = await SharedPreferences.getInstance();
+                          await prefs.setString('selectedCategory', result);
+                          final lvl = await _saveManager.loadLevelForCategory(
+                            result,
+                          );
+                          setState(() {
+                            _selectedCategory = result;
+                            _savedLevel = lvl < 1 ? 1 : lvl;
+                          });
+                        }
+                      },
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 20,
+                          vertical: 12,
                         ),
-                        const SizedBox(width: 10),
-                        _categoryChip(
-                          'bayrak',
-                          AppStrings.get('category_bayrak'),
-                          Icons.flag,
+                        decoration: BoxDecoration(
+                          color: Colors.white10,
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: Colors.white24),
                         ),
-
-                        _categoryChip(
-                          'hayvan',
-                          AppStrings.get('category_hayvan'),
-                          Icons.pets,
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              AppStrings.get('category_$_selectedCategory'),
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            const SizedBox(width: 6),
+                            const Icon(
+                              Icons.expand_more,
+                              color: Colors.white70,
+                              size: 18,
+                            ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                     const SizedBox(height: 24),
                     ElevatedButton(
@@ -310,53 +350,6 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                 color: color,
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _categoryChip(String value, String label, IconData icon) {
-    final isActive = _selectedCategory == value;
-    return GestureDetector(
-      onTap: () async {
-        _playClick();
-        final prefs = await SharedPreferences.getInstance();
-        await prefs.setString('selectedCategory', value);
-        final lvl = await _saveManager.loadLevelForCategory(value);
-        setState(() {
-          _selectedCategory = value;
-          _savedLevel = lvl < 1 ? 1 : lvl;
-        });
-      },
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-        decoration: BoxDecoration(
-          color: isActive
-              ? Colors.purpleAccent.withValues(alpha: 0.25)
-              : Colors.transparent,
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(
-            color: isActive ? Colors.purpleAccent : Colors.white24,
-          ),
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(
-              icon,
-              color: isActive ? Colors.purpleAccent : Colors.white54,
-              size: 18,
-            ),
-            const SizedBox(width: 6),
-            Text(
-              label,
-              style: TextStyle(
-                color: isActive ? Colors.purpleAccent : Colors.white54,
-                fontWeight: FontWeight.bold,
-                fontSize: 13,
               ),
             ),
           ],

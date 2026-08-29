@@ -190,6 +190,8 @@ class _WhiteRushAppState extends State<WhiteRushApp> {
                                   ? AppStrings.get('guess_title_bayrak')
                                   : g.selectedCategory == 'hayvan'
                                   ? AppStrings.get('guess_title_hayvan')
+                                  : g.selectedCategory == 'nesne'
+                                  ? AppStrings.get('guess_title_nesne')
                                   : AppStrings.get('guess_title'),
                               style: TextStyle(
                                 fontSize: 24,

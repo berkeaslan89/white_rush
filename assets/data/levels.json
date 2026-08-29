@@ -1,2207 +1,5006 @@
 [
   {
     "imagePath": "jerry.jpg",
-    "correctAnswer": "Jerry",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Jerry",
+      "en": "Jerry",
+      "ru": "Jerry"
+    }
   },
   {
     "imagePath": "pikachu.jpg",
-    "correctAnswer": "Pikachu",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Pikachu",
+      "en": "Pikachu",
+      "ru": "Pikachu"
+    }
   },
   {
     "imagePath": "spiderman.jpg",
-    "correctAnswer": "Spider-Man",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Spider-Man",
+      "en": "Spider-Man",
+      "ru": "Spider-Man"
+    }
   },
   {
     "imagePath": "batman.jpg",
-    "correctAnswer": "Batman",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Batman",
+      "en": "Batman",
+      "ru": "Batman"
+    }
   },
   {
     "imagePath": "superman.jpg",
-    "correctAnswer": "Superman",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Superman",
+      "en": "Superman",
+      "ru": "Superman"
+    }
   },
   {
     "imagePath": "ironman.jpg",
-    "correctAnswer": "Iron Man",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Iron Man",
+      "en": "Iron Man",
+      "ru": "Iron Man"
+    }
   },
   {
     "imagePath": "hulk.jpg",
-    "correctAnswer": "Hulk",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Hulk",
+      "en": "Hulk",
+      "ru": "Hulk"
+    }
   },
   {
     "imagePath": "wolverine.jpg",
-    "correctAnswer": "Wolverine",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Wolverine",
+      "en": "Wolverine",
+      "ru": "Wolverine"
+    }
   },
   {
     "imagePath": "deadpool.jpg",
-    "correctAnswer": "Deadpool",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Deadpool",
+      "en": "Deadpool",
+      "ru": "Deadpool"
+    }
   },
   {
     "imagePath": "joker.jpg",
-    "correctAnswer": "Joker",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Joker",
+      "en": "Joker",
+      "ru": "Joker"
+    }
   },
   {
     "imagePath": "homer_simpson.jpg",
-    "correctAnswer": "Homer Simpson",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Homer Simpson",
+      "en": "Homer Simpson",
+      "ru": "Homer Simpson"
+    }
   },
   {
     "imagePath": "spongebob.jpg",
-    "correctAnswer": "SpongeBob",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "SpongeBob",
+      "en": "SpongeBob",
+      "ru": "SpongeBob"
+    }
   },
   {
     "imagePath": "bugs_bunny.jpg",
-    "correctAnswer": "Bugs Bunny",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Bugs Bunny",
+      "en": "Bugs Bunny",
+      "ru": "Bugs Bunny"
+    }
   },
   {
     "imagePath": "mickey_mouse.jpg",
-    "correctAnswer": "Mickey Mouse",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Mickey Mouse",
+      "en": "Mickey Mouse",
+      "ru": "Mickey Mouse"
+    }
   },
   {
     "imagePath": "tom.jpg",
-    "correctAnswer": "Tom",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Tom",
+      "en": "Tom",
+      "ru": "Tom"
+    }
   },
   {
     "imagePath": "popeye.jpg",
-    "correctAnswer": "Temel Reis",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Temel Reis",
+      "en": "Temel Reis",
+      "ru": "Temel Reis"
+    }
   },
   {
     "imagePath": "scooby_doo.jpg",
-    "correctAnswer": "Scooby-Doo",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Scooby-Doo",
+      "en": "Scooby-Doo",
+      "ru": "Scooby-Doo"
+    }
   },
   {
     "imagePath": "rick.jpg",
-    "correctAnswer": "Rick Sanchez",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Rick Sanchez",
+      "en": "Rick Sanchez",
+      "ru": "Rick Sanchez"
+    }
   },
   {
     "imagePath": "morty.jpg",
-    "correctAnswer": "Morty",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Morty",
+      "en": "Morty",
+      "ru": "Morty"
+    }
   },
   {
     "imagePath": "dexter.jpg",
-    "correctAnswer": "Dexter",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Dexter",
+      "en": "Dexter",
+      "ru": "Dexter"
+    }
   },
   {
     "imagePath": "goku.jpg",
-    "correctAnswer": "Goku",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Goku",
+      "en": "Goku",
+      "ru": "Goku"
+    }
   },
   {
     "imagePath": "naruto.jpg",
-    "correctAnswer": "Naruto",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Naruto",
+      "en": "Naruto",
+      "ru": "Naruto"
+    }
   },
   {
     "imagePath": "luffy.jpg",
-    "correctAnswer": "Luffy",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Luffy",
+      "en": "Luffy",
+      "ru": "Luffy"
+    }
   },
   {
     "imagePath": "sailor_moon.jpg",
-    "correctAnswer": "Sailor Moon",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Sailor Moon",
+      "en": "Sailor Moon",
+      "ru": "Sailor Moon"
+    }
   },
   {
     "imagePath": "totoro.jpg",
-    "correctAnswer": "Totoro",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Totoro",
+      "en": "Totoro",
+      "ru": "Totoro"
+    }
   },
   {
     "imagePath": "doraemon.jpg",
-    "correctAnswer": "Doraemon",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Doraemon",
+      "en": "Doraemon",
+      "ru": "Doraemon"
+    }
   },
   {
     "imagePath": "saitama.jpg",
-    "correctAnswer": "Saitama",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Saitama",
+      "en": "Saitama",
+      "ru": "Saitama"
+    }
   },
   {
     "imagePath": "levi.jpg",
-    "correctAnswer": "Levi Ackerman",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Levi Ackerman",
+      "en": "Levi Ackerman",
+      "ru": "Levi Ackerman"
+    }
   },
   {
     "imagePath": "ash_ketchum.jpg",
-    "correctAnswer": "Ash Ketchum",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Ash Ketchum",
+      "en": "Ash Ketchum",
+      "ru": "Ash Ketchum"
+    }
   },
   {
     "imagePath": "shin_chan.jpg",
-    "correctAnswer": "Shin-chan",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Shin-chan",
+      "en": "Shin-chan",
+      "ru": "Shin-chan"
+    }
   },
   {
     "imagePath": "darth_vader.jpg",
-    "correctAnswer": "Darth Vader",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Darth Vader",
+      "en": "Darth Vader",
+      "ru": "Darth Vader"
+    }
   },
   {
     "imagePath": "luke_skywalker.jpg",
-    "correctAnswer": "Luke Skywalker",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Luke Skywalker",
+      "en": "Luke Skywalker",
+      "ru": "Luke Skywalker"
+    }
   },
   {
     "imagePath": "yoda.jpg",
-    "correctAnswer": "Yoda",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Yoda",
+      "en": "Yoda",
+      "ru": "Yoda"
+    }
   },
   {
     "imagePath": "harry_potter.jpg",
-    "correctAnswer": "Harry Potter",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Harry Potter",
+      "en": "Harry Potter",
+      "ru": "Harry Potter"
+    }
   },
   {
     "imagePath": "hermione.jpg",
-    "correctAnswer": "Hermione Granger",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Hermione Granger",
+      "en": "Hermione Granger",
+      "ru": "Hermione Granger"
+    }
   },
   {
     "imagePath": "voldemort.jpg",
-    "correctAnswer": "Voldemort",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Voldemort",
+      "en": "Voldemort",
+      "ru": "Voldemort"
+    }
   },
   {
     "imagePath": "frodo.jpg",
-    "correctAnswer": "Frodo",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Frodo",
+      "en": "Frodo",
+      "ru": "Frodo"
+    }
   },
   {
     "imagePath": "gandalf.jpg",
-    "correctAnswer": "Gandalf",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Gandalf",
+      "en": "Gandalf",
+      "ru": "Gandalf"
+    }
   },
   {
     "imagePath": "gollum.jpg",
-    "correctAnswer": "Gollum",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Gollum",
+      "en": "Gollum",
+      "ru": "Gollum"
+    }
   },
   {
     "imagePath": "jack_sparrow.jpg",
-    "correctAnswer": "Jack Sparrow",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Jack Sparrow",
+      "en": "Jack Sparrow",
+      "ru": "Jack Sparrow"
+    }
   },
   {
     "imagePath": "terminator.jpg",
-    "correctAnswer": "Terminator",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Terminator",
+      "en": "Terminator",
+      "ru": "Terminator"
+    }
   },
   {
     "imagePath": "neo.jpg",
-    "correctAnswer": "Neo",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Neo",
+      "en": "Neo",
+      "ru": "Neo"
+    }
   },
   {
     "imagePath": "john_wick.jpg",
-    "correctAnswer": "John Wick",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "John Wick",
+      "en": "John Wick",
+      "ru": "John Wick"
+    }
   },
   {
     "imagePath": "james_bond.jpg",
-    "correctAnswer": "James Bond",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "James Bond",
+      "en": "James Bond",
+      "ru": "James Bond"
+    }
   },
   {
     "imagePath": "indiana_jones.jpg",
-    "correctAnswer": "Indiana Jones",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Indiana Jones",
+      "en": "Indiana Jones",
+      "ru": "Indiana Jones"
+    }
   },
   {
     "imagePath": "rocky.jpg",
-    "correctAnswer": "Rocky Balboa",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Rocky Balboa",
+      "en": "Rocky Balboa",
+      "ru": "Rocky Balboa"
+    }
   },
   {
     "imagePath": "rambo.jpg",
-    "correctAnswer": "Rambo",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Rambo",
+      "en": "Rambo",
+      "ru": "Rambo"
+    }
   },
   {
     "imagePath": "et.jpg",
-    "correctAnswer": "E.T.",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "E.T.",
+      "en": "E.T.",
+      "ru": "E.T."
+    }
   },
   {
     "imagePath": "godzilla.jpg",
-    "correctAnswer": "Godzilla",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Godzilla",
+      "en": "Godzilla",
+      "ru": "Godzilla"
+    }
   },
   {
     "imagePath": "king_kong.jpg",
-    "correctAnswer": "King Kong",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "King Kong",
+      "en": "King Kong",
+      "ru": "King Kong"
+    }
   },
   {
     "imagePath": "mario.jpg",
-    "correctAnswer": "Mario",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Mario",
+      "en": "Mario",
+      "ru": "Mario"
+    }
   },
   {
     "imagePath": "luigi.jpg",
-    "correctAnswer": "Luigi",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Luigi",
+      "en": "Luigi",
+      "ru": "Luigi"
+    }
   },
   {
     "imagePath": "sonic.jpg",
-    "correctAnswer": "Sonic",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Sonic",
+      "en": "Sonic",
+      "ru": "Sonic"
+    }
   },
   {
     "imagePath": "link.jpg",
-    "correctAnswer": "Link",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Link",
+      "en": "Link",
+      "ru": "Link"
+    }
   },
   {
     "imagePath": "zelda.jpg",
-    "correctAnswer": "Zelda",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Zelda",
+      "en": "Zelda",
+      "ru": "Zelda"
+    }
   },
   {
     "imagePath": "kratos.jpg",
-    "correctAnswer": "Kratos",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Kratos",
+      "en": "Kratos",
+      "ru": "Kratos"
+    }
   },
   {
     "imagePath": "lara_croft.jpg",
-    "correctAnswer": "Lara Croft",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Lara Croft",
+      "en": "Lara Croft",
+      "ru": "Lara Croft"
+    }
   },
   {
     "imagePath": "pacman.jpg",
-    "correctAnswer": "Pac-Man",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Pac-Man",
+      "en": "Pac-Man",
+      "ru": "Pac-Man"
+    }
   },
   {
     "imagePath": "crash_bandicoot.jpg",
-    "correctAnswer": "Crash Bandicoot",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Crash Bandicoot",
+      "en": "Crash Bandicoot",
+      "ru": "Crash Bandicoot"
+    }
   },
   {
     "imagePath": "donkey_kong.jpg",
-    "correctAnswer": "Donkey Kong",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Donkey Kong",
+      "en": "Donkey Kong",
+      "ru": "Donkey Kong"
+    }
   },
   {
     "imagePath": "ryu.jpg",
-    "correctAnswer": "Ryu",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Ryu",
+      "en": "Ryu",
+      "ru": "Ryu"
+    }
   },
   {
     "imagePath": "chun_li.jpg",
-    "correctAnswer": "Chun-Li",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Chun-Li",
+      "en": "Chun-Li",
+      "ru": "Chun-Li"
+    }
   },
   {
     "imagePath": "sub_zero.jpg",
-    "correctAnswer": "Sub-Zero",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Sub-Zero",
+      "en": "Sub-Zero",
+      "ru": "Sub-Zero"
+    }
   },
   {
     "imagePath": "scorpion.jpg",
-    "correctAnswer": "Scorpion",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Scorpion",
+      "en": "Scorpion",
+      "ru": "Scorpion"
+    }
   },
   {
     "imagePath": "geralt.jpg",
-    "correctAnswer": "Geralt",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Geralt",
+      "en": "Geralt",
+      "ru": "Geralt"
+    }
   },
   {
     "imagePath": "arthur_morgan.jpg",
-    "correctAnswer": "Arthur Morgan",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Arthur Morgan",
+      "en": "Arthur Morgan",
+      "ru": "Arthur Morgan"
+    }
   },
   {
     "imagePath": "woody.jpg",
-    "correctAnswer": "Woody",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Woody",
+      "en": "Woody",
+      "ru": "Woody"
+    }
   },
   {
     "imagePath": "buzz_lightyear.jpg",
-    "correctAnswer": "Buzz Lightyear",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Buzz Lightyear",
+      "en": "Buzz Lightyear",
+      "ru": "Buzz Lightyear"
+    }
   },
   {
     "imagePath": "shrek.jpg",
-    "correctAnswer": "Shrek",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Shrek",
+      "en": "Shrek",
+      "ru": "Shrek"
+    }
   },
   {
     "imagePath": "elsa.jpg",
-    "correctAnswer": "Elsa",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Elsa",
+      "en": "Elsa",
+      "ru": "Elsa"
+    }
   },
   {
     "imagePath": "simba.jpg",
-    "correctAnswer": "Simba",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Simba",
+      "en": "Simba",
+      "ru": "Simba"
+    }
   },
   {
     "imagePath": "aladdin.jpg",
-    "correctAnswer": "Aladdin",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Aladdin",
+      "en": "Aladdin",
+      "ru": "Aladdin"
+    }
   },
   {
     "imagePath": "mulan.jpg",
-    "correctAnswer": "Mulan",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Mulan",
+      "en": "Mulan",
+      "ru": "Mulan"
+    }
   },
   {
     "imagePath": "ariel.jpg",
-    "correctAnswer": "Ariel",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Ariel",
+      "en": "Ariel",
+      "ru": "Ariel"
+    }
   },
   {
     "imagePath": "stitch.jpg",
-    "correctAnswer": "Stitch",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Stitch",
+      "en": "Stitch",
+      "ru": "Stitch"
+    }
   },
   {
     "imagePath": "nemo.jpg",
-    "correctAnswer": "Nemo",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Nemo",
+      "en": "Nemo",
+      "ru": "Nemo"
+    }
   },
   {
     "imagePath": "peter_pan.jpg",
-    "correctAnswer": "Peter Pan",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Peter Pan",
+      "en": "Peter Pan",
+      "ru": "Peter Pan"
+    }
   },
   {
     "imagePath": "tarzan.jpg",
-    "correctAnswer": "Tarzan",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Tarzan",
+      "en": "Tarzan",
+      "ru": "Tarzan"
+    }
   },
   {
     "imagePath": "hercules.jpg",
-    "correctAnswer": "Herkül",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Herkül",
+      "en": "Herkül",
+      "ru": "Herkül"
+    }
   },
   {
     "imagePath": "pinocchio.jpg",
-    "correctAnswer": "Pinokyo",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Pinokyo",
+      "en": "Pinokyo",
+      "ru": "Pinokyo"
+    }
   },
   {
     "imagePath": "fred_flintstone.jpg",
-    "correctAnswer": "Fred Çakmaktaş",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Fred Çakmaktaş",
+      "en": "Fred Çakmaktaş",
+      "ru": "Fred Çakmaktaş"
+    }
   },
   {
     "imagePath": "eric_cartman.jpg",
-    "correctAnswer": "Eric Cartman",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Eric Cartman",
+      "en": "Eric Cartman",
+      "ru": "Eric Cartman"
+    }
   },
   {
     "imagePath": "johnny_bravo.jpg",
-    "correctAnswer": "Johnny Bravo",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Johnny Bravo",
+      "en": "Johnny Bravo",
+      "ru": "Johnny Bravo"
+    }
   },
   {
     "imagePath": "peter_griffin.jpg",
-    "correctAnswer": "Peter Griffin",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Peter Griffin",
+      "en": "Peter Griffin",
+      "ru": "Peter Griffin"
+    }
   },
   {
     "imagePath": "finn.jpg",
-    "correctAnswer": "Finn",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Finn",
+      "en": "Finn",
+      "ru": "Finn"
+    }
   },
   {
     "imagePath": "jake.jpg",
-    "correctAnswer": "Jake",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Jake",
+      "en": "Jake",
+      "ru": "Jake"
+    }
   },
   {
     "imagePath": "peppa_pig.jpg",
-    "correctAnswer": "Peppa Pig",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Peppa Pig",
+      "en": "Peppa Pig",
+      "ru": "Peppa Pig"
+    }
   },
   {
     "imagePath": "winnie_the_pooh.jpg",
-    "correctAnswer": "Winnie the Pooh",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Winnie the Pooh",
+      "en": "Winnie the Pooh",
+      "ru": "Winnie the Pooh"
+    }
   },
   {
     "imagePath": "snoopy.jpg",
-    "correctAnswer": "Snoopy",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Snoopy",
+      "en": "Snoopy",
+      "ru": "Snoopy"
+    }
   },
   {
     "imagePath": "garfield.jpg",
-    "correctAnswer": "Garfield",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Garfield",
+      "en": "Garfield",
+      "ru": "Garfield"
+    }
   },
   {
     "imagePath": "captain_america.jpg",
-    "correctAnswer": "Captain America",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Captain America",
+      "en": "Captain America",
+      "ru": "Captain America"
+    }
   },
   {
     "imagePath": "wonder_woman.jpg",
-    "correctAnswer": "Wonder Woman",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Wonder Woman",
+      "en": "Wonder Woman",
+      "ru": "Wonder Woman"
+    }
   },
   {
     "imagePath": "thor.jpg",
-    "correctAnswer": "Thor",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Thor",
+      "en": "Thor",
+      "ru": "Thor"
+    }
   },
   {
     "imagePath": "flash.jpg",
-    "correctAnswer": "Flash",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Flash",
+      "en": "Flash",
+      "ru": "Flash"
+    }
   },
   {
     "imagePath": "black_panther.jpg",
-    "correctAnswer": "Black Panther",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Black Panther",
+      "en": "Black Panther",
+      "ru": "Black Panther"
+    }
   },
   {
     "imagePath": "thanos.jpg",
-    "correctAnswer": "Thanos",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Thanos",
+      "en": "Thanos",
+      "ru": "Thanos"
+    }
   },
   {
     "imagePath": "aquaman.jpg",
-    "correctAnswer": "Aquaman",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Aquaman",
+      "en": "Aquaman",
+      "ru": "Aquaman"
+    }
   },
   {
     "imagePath": "venom.jpg",
-    "correctAnswer": "Venom",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Venom",
+      "en": "Venom",
+      "ru": "Venom"
+    }
   },
   {
     "imagePath": "groot.jpg",
-    "correctAnswer": "Groot",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Groot",
+      "en": "Groot",
+      "ru": "Groot"
+    }
   },
   {
     "imagePath": "rocket_raccoon.jpg",
-    "correctAnswer": "Rocket Raccoon",
-    "category": "karakter"
+    "category": "karakter",
+    "correctAnswer": {
+      "tr": "Rocket Raccoon",
+      "en": "Rocket Raccoon",
+      "ru": "Rocket Raccoon"
+    }
   },
   {
     "imagePath": "flag_af.jpg",
-    "correctAnswer": "Afghanistan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Afganistan",
+      "en": "Afghanistan",
+      "ru": "Афганистан"
+    }
   },
   {
     "imagePath": "flag_ax.jpg",
-    "correctAnswer": "Aland Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Åland Adaları",
+      "en": "Aland Islands",
+      "ru": "Аландские о-ва"
+    }
   },
   {
     "imagePath": "flag_al.jpg",
-    "correctAnswer": "Albania",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Arnavutluk",
+      "en": "Albania",
+      "ru": "Албания"
+    }
   },
   {
     "imagePath": "flag_dz.jpg",
-    "correctAnswer": "Algeria",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Cezayir",
+      "en": "Algeria",
+      "ru": "Алжир"
+    }
   },
   {
     "imagePath": "flag_as.jpg",
-    "correctAnswer": "American Samoa",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Amerikan Samoası",
+      "en": "American Samoa",
+      "ru": "Американское Самоа"
+    }
   },
   {
     "imagePath": "flag_ad.jpg",
-    "correctAnswer": "Andorra",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Andorra",
+      "en": "Andorra",
+      "ru": "Андорра"
+    }
   },
   {
     "imagePath": "flag_ao.jpg",
-    "correctAnswer": "Angola",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Angola",
+      "en": "Angola",
+      "ru": "Ангола"
+    }
   },
   {
     "imagePath": "flag_ai.jpg",
-    "correctAnswer": "Anguilla",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Anguilla",
+      "en": "Anguilla",
+      "ru": "Ангилья"
+    }
   },
   {
     "imagePath": "flag_aq.jpg",
-    "correctAnswer": "Antarctica",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Antarktika",
+      "en": "Antarctica",
+      "ru": "Антарктида"
+    }
   },
   {
     "imagePath": "flag_ag.jpg",
-    "correctAnswer": "Antigua and Barbuda",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Antigua ve Barbuda",
+      "en": "Antigua and Barbuda",
+      "ru": "Антигуа и Барбуда"
+    }
   },
   {
     "imagePath": "flag_ar.jpg",
-    "correctAnswer": "Argentina",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Arjantin",
+      "en": "Argentina",
+      "ru": "Аргентина"
+    }
   },
   {
     "imagePath": "flag_am.jpg",
-    "correctAnswer": "Armenia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Ermenistan",
+      "en": "Armenia",
+      "ru": "Армения"
+    }
   },
   {
     "imagePath": "flag_aw.jpg",
-    "correctAnswer": "Aruba",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Aruba",
+      "en": "Aruba",
+      "ru": "Аруба"
+    }
   },
   {
     "imagePath": "flag_au.jpg",
-    "correctAnswer": "Australia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Avustralya",
+      "en": "Australia",
+      "ru": "Австралия"
+    }
   },
   {
     "imagePath": "flag_at.jpg",
-    "correctAnswer": "Austria",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Avusturya",
+      "en": "Austria",
+      "ru": "Австрия"
+    }
   },
   {
     "imagePath": "flag_az.jpg",
-    "correctAnswer": "Azerbaijan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Azerbaycan",
+      "en": "Azerbaijan",
+      "ru": "Азербайджан"
+    }
   },
   {
     "imagePath": "flag_bs.jpg",
-    "correctAnswer": "Bahamas",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bahamalar",
+      "en": "Bahamas",
+      "ru": "Багамы"
+    }
   },
   {
     "imagePath": "flag_bh.jpg",
-    "correctAnswer": "Bahrain",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bahreyn",
+      "en": "Bahrain",
+      "ru": "Бахрейн"
+    }
   },
   {
     "imagePath": "flag_bd.jpg",
-    "correctAnswer": "Bangladesh",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bangladeş",
+      "en": "Bangladesh",
+      "ru": "Бангладеш"
+    }
   },
   {
     "imagePath": "flag_bb.jpg",
-    "correctAnswer": "Barbados",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Barbados",
+      "en": "Barbados",
+      "ru": "Барбадос"
+    }
   },
   {
     "imagePath": "flag_by.jpg",
-    "correctAnswer": "Belarus",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Belarus",
+      "en": "Belarus",
+      "ru": "Беларусь"
+    }
   },
   {
     "imagePath": "flag_be.jpg",
-    "correctAnswer": "Belgium",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Belçika",
+      "en": "Belgium",
+      "ru": "Бельгия"
+    }
   },
   {
     "imagePath": "flag_bz.jpg",
-    "correctAnswer": "Belize",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Belize",
+      "en": "Belize",
+      "ru": "Белиз"
+    }
   },
   {
     "imagePath": "flag_bj.jpg",
-    "correctAnswer": "Benin",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Benin",
+      "en": "Benin",
+      "ru": "Бенин"
+    }
   },
   {
     "imagePath": "flag_bm.jpg",
-    "correctAnswer": "Bermuda",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bermuda",
+      "en": "Bermuda",
+      "ru": "Бермудские о-ва"
+    }
   },
   {
     "imagePath": "flag_bt.jpg",
-    "correctAnswer": "Bhutan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Butan",
+      "en": "Bhutan",
+      "ru": "Бутан"
+    }
   },
   {
     "imagePath": "flag_bo.jpg",
-    "correctAnswer": "Bolivia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bolivya",
+      "en": "Bolivia",
+      "ru": "Боливия"
+    }
   },
   {
     "imagePath": "flag_bq.jpg",
-    "correctAnswer": "Bonaire, Sint Eustatius and Saba",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Karayip Hollandası",
+      "en": "Bonaire, Sint Eustatius and Saba",
+      "ru": "Бонэйр, Синт-Эстатиус и Саба"
+    }
   },
   {
     "imagePath": "flag_ba.jpg",
-    "correctAnswer": "Bosnia and Herzegovina",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bosna-Hersek",
+      "en": "Bosnia and Herzegovina",
+      "ru": "Босния и Герцеговина"
+    }
   },
   {
     "imagePath": "flag_bw.jpg",
-    "correctAnswer": "Botswana",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Botsvana",
+      "en": "Botswana",
+      "ru": "Ботсвана"
+    }
   },
   {
     "imagePath": "flag_bv.jpg",
-    "correctAnswer": "Bouvet Island",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bouvet Adası",
+      "en": "Bouvet Island",
+      "ru": "о-в Буве"
+    }
   },
   {
     "imagePath": "flag_br.jpg",
-    "correctAnswer": "Brazil",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Brezilya",
+      "en": "Brazil",
+      "ru": "Бразилия"
+    }
   },
   {
     "imagePath": "flag_io.jpg",
-    "correctAnswer": "British Indian Ocean Territory",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Britanya Hint Okyanusu Toprakları",
+      "en": "British Indian Ocean Territory",
+      "ru": "Британская территория в Индийском океане"
+    }
   },
   {
     "imagePath": "flag_bn.jpg",
-    "correctAnswer": "Brunei Darussalam",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Brunei",
+      "en": "Brunei Darussalam",
+      "ru": "Бруней"
+    }
   },
   {
     "imagePath": "flag_bg.jpg",
-    "correctAnswer": "Bulgaria",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Bulgaristan",
+      "en": "Bulgaria",
+      "ru": "Болгария"
+    }
   },
   {
     "imagePath": "flag_bf.jpg",
-    "correctAnswer": "Burkina Faso",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Burkina Faso",
+      "en": "Burkina Faso",
+      "ru": "Буркина-Фасо"
+    }
   },
   {
     "imagePath": "flag_bi.jpg",
-    "correctAnswer": "Burundi",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Burundi",
+      "en": "Burundi",
+      "ru": "Бурунди"
+    }
   },
   {
     "imagePath": "flag_cv.jpg",
-    "correctAnswer": "Cabo Verde",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Cabo Verde",
+      "en": "Cabo Verde",
+      "ru": "Кабо-Верде"
+    }
   },
   {
     "imagePath": "flag_kh.jpg",
-    "correctAnswer": "Cambodia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kamboçya",
+      "en": "Cambodia",
+      "ru": "Камбоджа"
+    }
   },
   {
     "imagePath": "flag_cm.jpg",
-    "correctAnswer": "Cameroon",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kamerun",
+      "en": "Cameroon",
+      "ru": "Камерун"
+    }
   },
   {
     "imagePath": "flag_ca.jpg",
-    "correctAnswer": "Canada",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kanada",
+      "en": "Canada",
+      "ru": "Канада"
+    }
   },
   {
     "imagePath": "flag_ky.jpg",
-    "correctAnswer": "Cayman Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Cayman Adaları",
+      "en": "Cayman Islands",
+      "ru": "о-ва Кайман"
+    }
   },
   {
     "imagePath": "flag_cf.jpg",
-    "correctAnswer": "Central African Republic",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Orta Afrika Cumhuriyeti",
+      "en": "Central African Republic",
+      "ru": "Центрально-Африканская Республика"
+    }
   },
   {
     "imagePath": "flag_td.jpg",
-    "correctAnswer": "Chad",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Çad",
+      "en": "Chad",
+      "ru": "Чад"
+    }
   },
   {
     "imagePath": "flag_cl.jpg",
-    "correctAnswer": "Chile",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Şili",
+      "en": "Chile",
+      "ru": "Чили"
+    }
   },
   {
     "imagePath": "flag_cn.jpg",
-    "correctAnswer": "China",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Çin",
+      "en": "China",
+      "ru": "Китай"
+    }
   },
   {
     "imagePath": "flag_cx.jpg",
-    "correctAnswer": "Christmas Island",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Christmas Adası",
+      "en": "Christmas Island",
+      "ru": "о-в Рождества"
+    }
   },
   {
     "imagePath": "flag_cc.jpg",
-    "correctAnswer": "Cocos (Keeling) Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Cocos (Keeling) Adaları",
+      "en": "Cocos (Keeling) Islands",
+      "ru": "Кокосовые о-ва"
+    }
   },
   {
     "imagePath": "flag_co.jpg",
-    "correctAnswer": "Colombia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kolombiya",
+      "en": "Colombia",
+      "ru": "Колумбия"
+    }
   },
   {
     "imagePath": "flag_km.jpg",
-    "correctAnswer": "Comoros",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Komorlar",
+      "en": "Comoros",
+      "ru": "Коморы"
+    }
   },
   {
     "imagePath": "flag_ck.jpg",
-    "correctAnswer": "Cook Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Cook Adaları",
+      "en": "Cook Islands",
+      "ru": "о-ва Кука"
+    }
   },
   {
     "imagePath": "flag_cr.jpg",
-    "correctAnswer": "Costa Rica",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kosta Rika",
+      "en": "Costa Rica",
+      "ru": "Коста-Рика"
+    }
   },
   {
     "imagePath": "flag_hr.jpg",
-    "correctAnswer": "Croatia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Hırvatistan",
+      "en": "Croatia",
+      "ru": "Хорватия"
+    }
   },
   {
     "imagePath": "flag_cu.jpg",
-    "correctAnswer": "Cuba",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Küba",
+      "en": "Cuba",
+      "ru": "Куба"
+    }
   },
   {
     "imagePath": "flag_cw.jpg",
-    "correctAnswer": "Curaçao",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Curaçao",
+      "en": "Curaçao",
+      "ru": "Кюрасао"
+    }
   },
   {
     "imagePath": "flag_cy.jpg",
-    "correctAnswer": "Cyprus",
-    "category": "bayrak"
-  },
-  {
-    "imagePath": "flag_trnc.jpg",
-    "correctAnswer": "Kuzey Kıbrıs Türk Cumhuriyeti",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kıbrıs",
+      "en": "Cyprus",
+      "ru": "Кипр"
+    }
   },
   {
     "imagePath": "flag_cz.jpg",
-    "correctAnswer": "Czech Republic",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Çekya",
+      "en": "Czech Republic",
+      "ru": "Чехия"
+    }
   },
   {
     "imagePath": "flag_ci.jpg",
-    "correctAnswer": "Côte d'Ivoire",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Côte d’Ivoire",
+      "en": "Côte d'Ivoire",
+      "ru": "Кот-д’Ивуар"
+    }
   },
   {
     "imagePath": "flag_cd.jpg",
-    "correctAnswer": "Democratic Republic of the Congo",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kongo - Kinşasa",
+      "en": "Democratic Republic of the Congo",
+      "ru": "Конго - Киншаса"
+    }
   },
   {
     "imagePath": "flag_dk.jpg",
-    "correctAnswer": "Denmark",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Danimarka",
+      "en": "Denmark",
+      "ru": "Дания"
+    }
   },
   {
     "imagePath": "flag_dj.jpg",
-    "correctAnswer": "Djibouti",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Cibuti",
+      "en": "Djibouti",
+      "ru": "Джибути"
+    }
   },
   {
     "imagePath": "flag_dm.jpg",
-    "correctAnswer": "Dominica",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Dominika",
+      "en": "Dominica",
+      "ru": "Доминика"
+    }
   },
   {
     "imagePath": "flag_do.jpg",
-    "correctAnswer": "Dominican Republic",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Dominik Cumhuriyeti",
+      "en": "Dominican Republic",
+      "ru": "Доминиканская Республика"
+    }
   },
   {
     "imagePath": "flag_ec.jpg",
-    "correctAnswer": "Ecuador",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Ekvador",
+      "en": "Ecuador",
+      "ru": "Эквадор"
+    }
   },
   {
     "imagePath": "flag_eg.jpg",
-    "correctAnswer": "Egypt",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Mısır",
+      "en": "Egypt",
+      "ru": "Египет"
+    }
   },
   {
     "imagePath": "flag_sv.jpg",
-    "correctAnswer": "El Salvador",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "El Salvador",
+      "en": "El Salvador",
+      "ru": "Сальвадор"
+    }
   },
   {
     "imagePath": "flag_gq.jpg",
-    "correctAnswer": "Equatorial Guinea",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Ekvator Ginesi",
+      "en": "Equatorial Guinea",
+      "ru": "Экваториальная Гвинея"
+    }
   },
   {
     "imagePath": "flag_er.jpg",
-    "correctAnswer": "Eritrea",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Eritre",
+      "en": "Eritrea",
+      "ru": "Эритрея"
+    }
   },
   {
     "imagePath": "flag_ee.jpg",
-    "correctAnswer": "Estonia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Estonya",
+      "en": "Estonia",
+      "ru": "Эстония"
+    }
   },
   {
     "imagePath": "flag_sz.jpg",
-    "correctAnswer": "Eswatini",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Esvatini",
+      "en": "Eswatini",
+      "ru": "Эсватини"
+    }
   },
   {
     "imagePath": "flag_et.jpg",
-    "correctAnswer": "Ethiopia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Etiyopya",
+      "en": "Ethiopia",
+      "ru": "Эфиопия"
+    }
   },
   {
     "imagePath": "flag_fk.jpg",
-    "correctAnswer": "Falkland Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Falkland Adaları",
+      "en": "Falkland Islands",
+      "ru": "Фолклендские о-ва"
+    }
   },
   {
     "imagePath": "flag_fo.jpg",
-    "correctAnswer": "Faroe Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Faroe Adaları",
+      "en": "Faroe Islands",
+      "ru": "Фарерские о-ва"
+    }
   },
   {
     "imagePath": "flag_fm.jpg",
-    "correctAnswer": "Federated States of Micronesia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Mikronezya",
+      "en": "Federated States of Micronesia",
+      "ru": "Федеративные Штаты Микронезии"
+    }
   },
   {
     "imagePath": "flag_fj.jpg",
-    "correctAnswer": "Fiji",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Fiji",
+      "en": "Fiji",
+      "ru": "Фиджи"
+    }
   },
   {
     "imagePath": "flag_fi.jpg",
-    "correctAnswer": "Finland",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Finlandiya",
+      "en": "Finland",
+      "ru": "Финляндия"
+    }
   },
   {
     "imagePath": "flag_fr.jpg",
-    "correctAnswer": "France",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Fransa",
+      "en": "France",
+      "ru": "Франция"
+    }
   },
   {
     "imagePath": "flag_gf.jpg",
-    "correctAnswer": "French Guiana",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Fransız Guyanası",
+      "en": "French Guiana",
+      "ru": "Французская Гвиана"
+    }
   },
   {
     "imagePath": "flag_pf.jpg",
-    "correctAnswer": "French Polynesia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Fransız Polinezyası",
+      "en": "French Polynesia",
+      "ru": "Французская Полинезия"
+    }
   },
   {
     "imagePath": "flag_tf.jpg",
-    "correctAnswer": "French Southern Territories",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Fransız Güney Toprakları",
+      "en": "French Southern Territories",
+      "ru": "Французские Южные территории"
+    }
   },
   {
     "imagePath": "flag_ga.jpg",
-    "correctAnswer": "Gabon",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Gabon",
+      "en": "Gabon",
+      "ru": "Габон"
+    }
   },
   {
     "imagePath": "flag_gm.jpg",
-    "correctAnswer": "Gambia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Gambiya",
+      "en": "Gambia",
+      "ru": "Гамбия"
+    }
   },
   {
     "imagePath": "flag_ge.jpg",
-    "correctAnswer": "Georgia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Gürcistan",
+      "en": "Georgia",
+      "ru": "Грузия"
+    }
   },
   {
     "imagePath": "flag_de.jpg",
-    "correctAnswer": "Germany",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Almanya",
+      "en": "Germany",
+      "ru": "Германия"
+    }
   },
   {
     "imagePath": "flag_gh.jpg",
-    "correctAnswer": "Ghana",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Gana",
+      "en": "Ghana",
+      "ru": "Гана"
+    }
   },
   {
     "imagePath": "flag_gi.jpg",
-    "correctAnswer": "Gibraltar",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Cebelitarık",
+      "en": "Gibraltar",
+      "ru": "Гибралтар"
+    }
   },
   {
     "imagePath": "flag_gr.jpg",
-    "correctAnswer": "Greece",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Yunanistan",
+      "en": "Greece",
+      "ru": "Греция"
+    }
   },
   {
     "imagePath": "flag_gl.jpg",
-    "correctAnswer": "Greenland",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Grönland",
+      "en": "Greenland",
+      "ru": "Гренландия"
+    }
   },
   {
     "imagePath": "flag_gd.jpg",
-    "correctAnswer": "Grenada",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Grenada",
+      "en": "Grenada",
+      "ru": "Гренада"
+    }
   },
   {
     "imagePath": "flag_gp.jpg",
-    "correctAnswer": "Guadeloupe",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Guadeloupe",
+      "en": "Guadeloupe",
+      "ru": "Гваделупа"
+    }
   },
   {
     "imagePath": "flag_gu.jpg",
-    "correctAnswer": "Guam",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Guam",
+      "en": "Guam",
+      "ru": "Гуам"
+    }
   },
   {
     "imagePath": "flag_gt.jpg",
-    "correctAnswer": "Guatemala",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Guatemala",
+      "en": "Guatemala",
+      "ru": "Гватемала"
+    }
   },
   {
     "imagePath": "flag_gg.jpg",
-    "correctAnswer": "Guernsey",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Guernsey",
+      "en": "Guernsey",
+      "ru": "Гернси"
+    }
   },
   {
     "imagePath": "flag_gn.jpg",
-    "correctAnswer": "Guinea",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Gine",
+      "en": "Guinea",
+      "ru": "Гвинея"
+    }
   },
   {
     "imagePath": "flag_gw.jpg",
-    "correctAnswer": "Guinea-Bissau",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Gine-Bissau",
+      "en": "Guinea-Bissau",
+      "ru": "Гвинея-Бисау"
+    }
   },
   {
     "imagePath": "flag_gy.jpg",
-    "correctAnswer": "Guyana",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Guyana",
+      "en": "Guyana",
+      "ru": "Гайана"
+    }
   },
   {
     "imagePath": "flag_ht.jpg",
-    "correctAnswer": "Haiti",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Haiti",
+      "en": "Haiti",
+      "ru": "Гаити"
+    }
   },
   {
     "imagePath": "flag_hm.jpg",
-    "correctAnswer": "Heard Island and McDonald Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Heard Adası ve McDonald Adaları",
+      "en": "Heard Island and McDonald Islands",
+      "ru": "о-ва Херд и Макдональд"
+    }
   },
   {
     "imagePath": "flag_va.jpg",
-    "correctAnswer": "Holy See",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Vatikan",
+      "en": "Holy See",
+      "ru": "Ватикан"
+    }
   },
   {
     "imagePath": "flag_hn.jpg",
-    "correctAnswer": "Honduras",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Honduras",
+      "en": "Honduras",
+      "ru": "Гондурас"
+    }
   },
   {
     "imagePath": "flag_hk.jpg",
-    "correctAnswer": "Hong Kong",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Çin Hong Kong ÖİB",
+      "en": "Hong Kong",
+      "ru": "Гонконг (САР)"
+    }
   },
   {
     "imagePath": "flag_hu.jpg",
-    "correctAnswer": "Hungary",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Macaristan",
+      "en": "Hungary",
+      "ru": "Венгрия"
+    }
   },
   {
     "imagePath": "flag_is.jpg",
-    "correctAnswer": "Iceland",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İzlanda",
+      "en": "Iceland",
+      "ru": "Исландия"
+    }
   },
   {
     "imagePath": "flag_in.jpg",
-    "correctAnswer": "India",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Hindistan",
+      "en": "India",
+      "ru": "Индия"
+    }
   },
   {
     "imagePath": "flag_id.jpg",
-    "correctAnswer": "Indonesia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Endonezya",
+      "en": "Indonesia",
+      "ru": "Индонезия"
+    }
   },
   {
     "imagePath": "flag_ir.jpg",
-    "correctAnswer": "Iran",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İran",
+      "en": "Iran",
+      "ru": "Иран"
+    }
   },
   {
     "imagePath": "flag_iq.jpg",
-    "correctAnswer": "Iraq",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Irak",
+      "en": "Iraq",
+      "ru": "Ирак"
+    }
   },
   {
     "imagePath": "flag_ie.jpg",
-    "correctAnswer": "Ireland",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İrlanda",
+      "en": "Ireland",
+      "ru": "Ирландия"
+    }
   },
   {
     "imagePath": "flag_im.jpg",
-    "correctAnswer": "Isle of Man",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Man Adası",
+      "en": "Isle of Man",
+      "ru": "о-в Мэн"
+    }
   },
   {
     "imagePath": "flag_il.jpg",
-    "correctAnswer": "Israel",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İsrail",
+      "en": "Israel",
+      "ru": "Израиль"
+    }
   },
   {
     "imagePath": "flag_it.jpg",
-    "correctAnswer": "Italy",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İtalya",
+      "en": "Italy",
+      "ru": "Италия"
+    }
   },
   {
     "imagePath": "flag_jm.jpg",
-    "correctAnswer": "Jamaica",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Jamaika",
+      "en": "Jamaica",
+      "ru": "Ямайка"
+    }
   },
   {
     "imagePath": "flag_jp.jpg",
-    "correctAnswer": "Japan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Japonya",
+      "en": "Japan",
+      "ru": "Япония"
+    }
   },
   {
     "imagePath": "flag_je.jpg",
-    "correctAnswer": "Jersey",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Jersey",
+      "en": "Jersey",
+      "ru": "Джерси"
+    }
   },
   {
     "imagePath": "flag_jo.jpg",
-    "correctAnswer": "Jordan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Ürdün",
+      "en": "Jordan",
+      "ru": "Иордания"
+    }
   },
   {
     "imagePath": "flag_kz.jpg",
-    "correctAnswer": "Kazakhstan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kazakistan",
+      "en": "Kazakhstan",
+      "ru": "Казахстан"
+    }
   },
   {
     "imagePath": "flag_ke.jpg",
-    "correctAnswer": "Kenya",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kenya",
+      "en": "Kenya",
+      "ru": "Кения"
+    }
   },
   {
     "imagePath": "flag_ki.jpg",
-    "correctAnswer": "Kiribati",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kiribati",
+      "en": "Kiribati",
+      "ru": "Кирибати"
+    }
   },
   {
     "imagePath": "flag_kw.jpg",
-    "correctAnswer": "Kuwait",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kuveyt",
+      "en": "Kuwait",
+      "ru": "Кувейт"
+    }
   },
   {
     "imagePath": "flag_kg.jpg",
-    "correctAnswer": "Kyrgyzstan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kırgızistan",
+      "en": "Kyrgyzstan",
+      "ru": "Киргизия"
+    }
   },
   {
     "imagePath": "flag_la.jpg",
-    "correctAnswer": "Laos",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Laos",
+      "en": "Laos",
+      "ru": "Лаос"
+    }
   },
   {
     "imagePath": "flag_lv.jpg",
-    "correctAnswer": "Latvia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Letonya",
+      "en": "Latvia",
+      "ru": "Латвия"
+    }
   },
   {
     "imagePath": "flag_lb.jpg",
-    "correctAnswer": "Lebanon",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Lübnan",
+      "en": "Lebanon",
+      "ru": "Ливан"
+    }
   },
   {
     "imagePath": "flag_ls.jpg",
-    "correctAnswer": "Lesotho",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Lesotho",
+      "en": "Lesotho",
+      "ru": "Лесото"
+    }
   },
   {
     "imagePath": "flag_lr.jpg",
-    "correctAnswer": "Liberia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Liberya",
+      "en": "Liberia",
+      "ru": "Либерия"
+    }
   },
   {
     "imagePath": "flag_ly.jpg",
-    "correctAnswer": "Libya",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Libya",
+      "en": "Libya",
+      "ru": "Ливия"
+    }
   },
   {
     "imagePath": "flag_li.jpg",
-    "correctAnswer": "Liechtenstein",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Liechtenstein",
+      "en": "Liechtenstein",
+      "ru": "Лихтенштейн"
+    }
   },
   {
     "imagePath": "flag_lt.jpg",
-    "correctAnswer": "Lithuania",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Litvanya",
+      "en": "Lithuania",
+      "ru": "Литва"
+    }
   },
   {
     "imagePath": "flag_lu.jpg",
-    "correctAnswer": "Luxembourg",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Lüksemburg",
+      "en": "Luxembourg",
+      "ru": "Люксембург"
+    }
   },
   {
     "imagePath": "flag_mo.jpg",
-    "correctAnswer": "Macau",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Çin Makao ÖİB",
+      "en": "Macau",
+      "ru": "Макао (САР)"
+    }
   },
   {
     "imagePath": "flag_mg.jpg",
-    "correctAnswer": "Madagascar",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Madagaskar",
+      "en": "Madagascar",
+      "ru": "Мадагаскар"
+    }
   },
   {
     "imagePath": "flag_mw.jpg",
-    "correctAnswer": "Malawi",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Malavi",
+      "en": "Malawi",
+      "ru": "Малави"
+    }
   },
   {
     "imagePath": "flag_my.jpg",
-    "correctAnswer": "Malaysia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Malezya",
+      "en": "Malaysia",
+      "ru": "Малайзия"
+    }
   },
   {
     "imagePath": "flag_mv.jpg",
-    "correctAnswer": "Maldives",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Maldivler",
+      "en": "Maldives",
+      "ru": "Мальдивы"
+    }
   },
   {
     "imagePath": "flag_ml.jpg",
-    "correctAnswer": "Mali",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Mali",
+      "en": "Mali",
+      "ru": "Мали"
+    }
   },
   {
     "imagePath": "flag_mt.jpg",
-    "correctAnswer": "Malta",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Malta",
+      "en": "Malta",
+      "ru": "Мальта"
+    }
   },
   {
     "imagePath": "flag_mh.jpg",
-    "correctAnswer": "Marshall Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Marshall Adaları",
+      "en": "Marshall Islands",
+      "ru": "Маршалловы о-ва"
+    }
   },
   {
     "imagePath": "flag_mq.jpg",
-    "correctAnswer": "Martinique",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Martinik",
+      "en": "Martinique",
+      "ru": "Мартиника"
+    }
   },
   {
     "imagePath": "flag_mr.jpg",
-    "correctAnswer": "Mauritania",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Moritanya",
+      "en": "Mauritania",
+      "ru": "Мавритания"
+    }
   },
   {
     "imagePath": "flag_mu.jpg",
-    "correctAnswer": "Mauritius",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Mauritius",
+      "en": "Mauritius",
+      "ru": "Маврикий"
+    }
   },
   {
     "imagePath": "flag_yt.jpg",
-    "correctAnswer": "Mayotte",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Mayotte",
+      "en": "Mayotte",
+      "ru": "Майотта"
+    }
   },
   {
     "imagePath": "flag_mx.jpg",
-    "correctAnswer": "Mexico",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Meksika",
+      "en": "Mexico",
+      "ru": "Мексика"
+    }
   },
   {
     "imagePath": "flag_md.jpg",
-    "correctAnswer": "Moldova",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Moldova",
+      "en": "Moldova",
+      "ru": "Молдова"
+    }
   },
   {
     "imagePath": "flag_mc.jpg",
-    "correctAnswer": "Monaco",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Monako",
+      "en": "Monaco",
+      "ru": "Монако"
+    }
   },
   {
     "imagePath": "flag_mn.jpg",
-    "correctAnswer": "Mongolia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Moğolistan",
+      "en": "Mongolia",
+      "ru": "Монголия"
+    }
   },
   {
     "imagePath": "flag_me.jpg",
-    "correctAnswer": "Montenegro",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Karadağ",
+      "en": "Montenegro",
+      "ru": "Черногория"
+    }
   },
   {
     "imagePath": "flag_ms.jpg",
-    "correctAnswer": "Montserrat",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Montserrat",
+      "en": "Montserrat",
+      "ru": "Монтсеррат"
+    }
   },
   {
     "imagePath": "flag_ma.jpg",
-    "correctAnswer": "Morocco",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Fas",
+      "en": "Morocco",
+      "ru": "Марокко"
+    }
   },
   {
     "imagePath": "flag_mz.jpg",
-    "correctAnswer": "Mozambique",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Mozambik",
+      "en": "Mozambique",
+      "ru": "Мозамбик"
+    }
   },
   {
     "imagePath": "flag_mm.jpg",
-    "correctAnswer": "Myanmar",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Myanmar (Burma)",
+      "en": "Myanmar",
+      "ru": "Мьянма (Бирма)"
+    }
   },
   {
     "imagePath": "flag_na.jpg",
-    "correctAnswer": "Namibia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Namibya",
+      "en": "Namibia",
+      "ru": "Намибия"
+    }
   },
   {
     "imagePath": "flag_nr.jpg",
-    "correctAnswer": "Nauru",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Nauru",
+      "en": "Nauru",
+      "ru": "Науру"
+    }
   },
   {
     "imagePath": "flag_np.jpg",
-    "correctAnswer": "Nepal",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Nepal",
+      "en": "Nepal",
+      "ru": "Непал"
+    }
   },
   {
     "imagePath": "flag_nl.jpg",
-    "correctAnswer": "Netherlands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Hollanda",
+      "en": "Netherlands",
+      "ru": "Нидерланды"
+    }
   },
   {
     "imagePath": "flag_nc.jpg",
-    "correctAnswer": "New Caledonia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Yeni Kaledonya",
+      "en": "New Caledonia",
+      "ru": "Новая Каледония"
+    }
   },
   {
     "imagePath": "flag_nz.jpg",
-    "correctAnswer": "New Zealand",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Yeni Zelanda",
+      "en": "New Zealand",
+      "ru": "Новая Зеландия"
+    }
   },
   {
     "imagePath": "flag_ni.jpg",
-    "correctAnswer": "Nicaragua",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Nikaragua",
+      "en": "Nicaragua",
+      "ru": "Никарагуа"
+    }
   },
   {
     "imagePath": "flag_ne.jpg",
-    "correctAnswer": "Niger",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Nijer",
+      "en": "Niger",
+      "ru": "Нигер"
+    }
   },
   {
     "imagePath": "flag_ng.jpg",
-    "correctAnswer": "Nigeria",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Nijerya",
+      "en": "Nigeria",
+      "ru": "Нигерия"
+    }
   },
   {
     "imagePath": "flag_nu.jpg",
-    "correctAnswer": "Niue",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Niue",
+      "en": "Niue",
+      "ru": "Ниуэ"
+    }
   },
   {
     "imagePath": "flag_nf.jpg",
-    "correctAnswer": "Norfolk Island",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Norfolk Adası",
+      "en": "Norfolk Island",
+      "ru": "о-в Норфолк"
+    }
   },
   {
     "imagePath": "flag_kp.jpg",
-    "correctAnswer": "North Korea",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kuzey Kore",
+      "en": "North Korea",
+      "ru": "КНДР"
+    }
   },
   {
     "imagePath": "flag_mk.jpg",
-    "correctAnswer": "North Macedonia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kuzey Makedonya",
+      "en": "North Macedonia",
+      "ru": "Северная Македония"
+    }
   },
   {
     "imagePath": "flag_mp.jpg",
-    "correctAnswer": "Northern Mariana Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kuzey Mariana Adaları",
+      "en": "Northern Mariana Islands",
+      "ru": "Северные Марианские о-ва"
+    }
   },
   {
     "imagePath": "flag_no.jpg",
-    "correctAnswer": "Norway",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Norveç",
+      "en": "Norway",
+      "ru": "Норвегия"
+    }
   },
   {
     "imagePath": "flag_om.jpg",
-    "correctAnswer": "Oman",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Umman",
+      "en": "Oman",
+      "ru": "Оман"
+    }
   },
   {
     "imagePath": "flag_pk.jpg",
-    "correctAnswer": "Pakistan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Pakistan",
+      "en": "Pakistan",
+      "ru": "Пакистан"
+    }
   },
   {
     "imagePath": "flag_pw.jpg",
-    "correctAnswer": "Palau",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Palau",
+      "en": "Palau",
+      "ru": "Палау"
+    }
   },
   {
     "imagePath": "flag_pa.jpg",
-    "correctAnswer": "Panama",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Panama",
+      "en": "Panama",
+      "ru": "Панама"
+    }
   },
   {
     "imagePath": "flag_pg.jpg",
-    "correctAnswer": "Papua New Guinea",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Papua Yeni Gine",
+      "en": "Papua New Guinea",
+      "ru": "Папуа — Новая Гвинея"
+    }
   },
   {
     "imagePath": "flag_py.jpg",
-    "correctAnswer": "Paraguay",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Paraguay",
+      "en": "Paraguay",
+      "ru": "Парагвай"
+    }
   },
   {
     "imagePath": "flag_pe.jpg",
-    "correctAnswer": "Peru",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Peru",
+      "en": "Peru",
+      "ru": "Перу"
+    }
   },
   {
     "imagePath": "flag_ph.jpg",
-    "correctAnswer": "Philippines",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Filipinler",
+      "en": "Philippines",
+      "ru": "Филиппины"
+    }
   },
   {
     "imagePath": "flag_pn.jpg",
-    "correctAnswer": "Pitcairn",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Pitcairn Adaları",
+      "en": "Pitcairn",
+      "ru": "о-ва Питкэрн"
+    }
   },
   {
     "imagePath": "flag_pl.jpg",
-    "correctAnswer": "Poland",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Polonya",
+      "en": "Poland",
+      "ru": "Польша"
+    }
   },
   {
     "imagePath": "flag_pt.jpg",
-    "correctAnswer": "Portugal",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Portekiz",
+      "en": "Portugal",
+      "ru": "Португалия"
+    }
   },
   {
     "imagePath": "flag_pr.jpg",
-    "correctAnswer": "Puerto Rico",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Porto Riko",
+      "en": "Puerto Rico",
+      "ru": "Пуэрто-Рико"
+    }
   },
   {
     "imagePath": "flag_qa.jpg",
-    "correctAnswer": "Qatar",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Katar",
+      "en": "Qatar",
+      "ru": "Катар"
+    }
   },
   {
     "imagePath": "flag_cg.jpg",
-    "correctAnswer": "Republic of the Congo",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Kongo - Brazavil",
+      "en": "Republic of the Congo",
+      "ru": "Конго - Браззавиль"
+    }
   },
   {
     "imagePath": "flag_ro.jpg",
-    "correctAnswer": "Romania",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Romanya",
+      "en": "Romania",
+      "ru": "Румыния"
+    }
   },
   {
     "imagePath": "flag_ru.jpg",
-    "correctAnswer": "Russia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Rusya",
+      "en": "Russia",
+      "ru": "Россия"
+    }
   },
   {
     "imagePath": "flag_rw.jpg",
-    "correctAnswer": "Rwanda",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Ruanda",
+      "en": "Rwanda",
+      "ru": "Руанда"
+    }
   },
   {
     "imagePath": "flag_re.jpg",
-    "correctAnswer": "Réunion",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Reunion",
+      "en": "Réunion",
+      "ru": "Реюньон"
+    }
   },
   {
     "imagePath": "flag_bl.jpg",
-    "correctAnswer": "Saint Barthélemy",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Saint Barthelemy",
+      "en": "Saint Barthélemy",
+      "ru": "Сен-Бартелеми"
+    }
   },
   {
     "imagePath": "flag_sh.jpg",
-    "correctAnswer": "Saint Helena, Ascension and Tristan da Cunha",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Saint Helena",
+      "en": "Saint Helena, Ascension and Tristan da Cunha",
+      "ru": "о-в Св. Елены"
+    }
   },
   {
     "imagePath": "flag_kn.jpg",
-    "correctAnswer": "Saint Kitts and Nevis",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Saint Kitts ve Nevis",
+      "en": "Saint Kitts and Nevis",
+      "ru": "Сент-Китс и Невис"
+    }
   },
   {
     "imagePath": "flag_lc.jpg",
-    "correctAnswer": "Saint Lucia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Saint Lucia",
+      "en": "Saint Lucia",
+      "ru": "Сент-Люсия"
+    }
   },
   {
     "imagePath": "flag_mf.jpg",
-    "correctAnswer": "Saint Martin",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Saint Martin",
+      "en": "Saint Martin",
+      "ru": "Сен-Мартен"
+    }
   },
   {
     "imagePath": "flag_pm.jpg",
-    "correctAnswer": "Saint Pierre and Miquelon",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Saint Pierre ve Miquelon",
+      "en": "Saint Pierre and Miquelon",
+      "ru": "Сен-Пьер и Микелон"
+    }
   },
   {
     "imagePath": "flag_vc.jpg",
-    "correctAnswer": "Saint Vincent and the Grenadines",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Saint Vincent ve Grenadinler",
+      "en": "Saint Vincent and the Grenadines",
+      "ru": "Сент-Винсент и Гренадины"
+    }
   },
   {
     "imagePath": "flag_ws.jpg",
-    "correctAnswer": "Samoa",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Samoa",
+      "en": "Samoa",
+      "ru": "Самоа"
+    }
   },
   {
     "imagePath": "flag_sm.jpg",
-    "correctAnswer": "San Marino",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "San Marino",
+      "en": "San Marino",
+      "ru": "Сан-Марино"
+    }
   },
   {
     "imagePath": "flag_st.jpg",
-    "correctAnswer": "Sao Tome and Principe",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Sao Tome ve Principe",
+      "en": "Sao Tome and Principe",
+      "ru": "Сан-Томе и Принсипи"
+    }
   },
   {
     "imagePath": "flag_sa.jpg",
-    "correctAnswer": "Saudi Arabia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Suudi Arabistan",
+      "en": "Saudi Arabia",
+      "ru": "Саудовская Аравия"
+    }
   },
   {
     "imagePath": "flag_sn.jpg",
-    "correctAnswer": "Senegal",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Senegal",
+      "en": "Senegal",
+      "ru": "Сенегал"
+    }
   },
   {
     "imagePath": "flag_rs.jpg",
-    "correctAnswer": "Serbia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Sırbistan",
+      "en": "Serbia",
+      "ru": "Сербия"
+    }
   },
   {
     "imagePath": "flag_sc.jpg",
-    "correctAnswer": "Seychelles",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Seyşeller",
+      "en": "Seychelles",
+      "ru": "Сейшельские о-ва"
+    }
   },
   {
     "imagePath": "flag_sl.jpg",
-    "correctAnswer": "Sierra Leone",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Sierra Leone",
+      "en": "Sierra Leone",
+      "ru": "Сьерра-Леоне"
+    }
   },
   {
     "imagePath": "flag_sg.jpg",
-    "correctAnswer": "Singapore",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Singapur",
+      "en": "Singapore",
+      "ru": "Сингапур"
+    }
   },
   {
     "imagePath": "flag_sx.jpg",
-    "correctAnswer": "Sint Maarten",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Sint Maarten",
+      "en": "Sint Maarten",
+      "ru": "Синт-Мартен"
+    }
   },
   {
     "imagePath": "flag_sk.jpg",
-    "correctAnswer": "Slovakia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Slovakya",
+      "en": "Slovakia",
+      "ru": "Словакия"
+    }
   },
   {
     "imagePath": "flag_si.jpg",
-    "correctAnswer": "Slovenia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Slovenya",
+      "en": "Slovenia",
+      "ru": "Словения"
+    }
   },
   {
     "imagePath": "flag_sb.jpg",
-    "correctAnswer": "Solomon Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Solomon Adaları",
+      "en": "Solomon Islands",
+      "ru": "Соломоновы о-ва"
+    }
   },
   {
     "imagePath": "flag_so.jpg",
-    "correctAnswer": "Somalia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Somali",
+      "en": "Somalia",
+      "ru": "Сомали"
+    }
   },
   {
     "imagePath": "flag_za.jpg",
-    "correctAnswer": "South Africa",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Güney Afrika",
+      "en": "South Africa",
+      "ru": "Южно-Африканская Республика"
+    }
   },
   {
     "imagePath": "flag_gs.jpg",
-    "correctAnswer": "South Georgia and the South Sandwich Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Güney Georgia ve Güney Sandwich Adaları",
+      "en": "South Georgia and the South Sandwich Islands",
+      "ru": "Южная Георгия и Южные Сандвичевы о-ва"
+    }
   },
   {
     "imagePath": "flag_kr.jpg",
-    "correctAnswer": "South Korea",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Güney Kore",
+      "en": "South Korea",
+      "ru": "Республика Корея"
+    }
   },
   {
     "imagePath": "flag_ss.jpg",
-    "correctAnswer": "South Sudan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Güney Sudan",
+      "en": "South Sudan",
+      "ru": "Южный Судан"
+    }
   },
   {
     "imagePath": "flag_es.jpg",
-    "correctAnswer": "Spain",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İspanya",
+      "en": "Spain",
+      "ru": "Испания"
+    }
   },
   {
     "imagePath": "flag_lk.jpg",
-    "correctAnswer": "Sri Lanka",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Sri Lanka",
+      "en": "Sri Lanka",
+      "ru": "Шри-Ланка"
+    }
   },
   {
     "imagePath": "flag_ps.jpg",
-    "correctAnswer": "State of Palestine",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Filistin Bölgeleri",
+      "en": "State of Palestine",
+      "ru": "Палестинские территории"
+    }
   },
   {
     "imagePath": "flag_sd.jpg",
-    "correctAnswer": "Sudan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Sudan",
+      "en": "Sudan",
+      "ru": "Судан"
+    }
   },
   {
     "imagePath": "flag_sr.jpg",
-    "correctAnswer": "Suriname",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Surinam",
+      "en": "Suriname",
+      "ru": "Суринам"
+    }
   },
   {
     "imagePath": "flag_sj.jpg",
-    "correctAnswer": "Svalbard and Jan Mayen",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Svalbard ve Jan Mayen",
+      "en": "Svalbard and Jan Mayen",
+      "ru": "Шпицберген и Ян-Майен"
+    }
   },
   {
     "imagePath": "flag_se.jpg",
-    "correctAnswer": "Sweden",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İsveç",
+      "en": "Sweden",
+      "ru": "Швеция"
+    }
   },
   {
     "imagePath": "flag_ch.jpg",
-    "correctAnswer": "Switzerland",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "İsviçre",
+      "en": "Switzerland",
+      "ru": "Швейцария"
+    }
   },
   {
     "imagePath": "flag_sy.jpg",
-    "correctAnswer": "Syria",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Suriye",
+      "en": "Syria",
+      "ru": "Сирия"
+    }
   },
   {
     "imagePath": "flag_tw.jpg",
-    "correctAnswer": "Taiwan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tayvan",
+      "en": "Taiwan",
+      "ru": "Тайвань"
+    }
   },
   {
     "imagePath": "flag_tj.jpg",
-    "correctAnswer": "Tajikistan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tacikistan",
+      "en": "Tajikistan",
+      "ru": "Таджикистан"
+    }
   },
   {
     "imagePath": "flag_tz.jpg",
-    "correctAnswer": "Tanzania",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tanzanya",
+      "en": "Tanzania",
+      "ru": "Танзания"
+    }
   },
   {
     "imagePath": "flag_th.jpg",
-    "correctAnswer": "Thailand",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tayland",
+      "en": "Thailand",
+      "ru": "Таиланд"
+    }
   },
   {
     "imagePath": "flag_tl.jpg",
-    "correctAnswer": "Timor-Leste",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Timor-Leste",
+      "en": "Timor-Leste",
+      "ru": "Восточный Тимор"
+    }
   },
   {
     "imagePath": "flag_tg.jpg",
-    "correctAnswer": "Togo",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Togo",
+      "en": "Togo",
+      "ru": "Того"
+    }
   },
   {
     "imagePath": "flag_tk.jpg",
-    "correctAnswer": "Tokelau",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tokelau",
+      "en": "Tokelau",
+      "ru": "Токелау"
+    }
   },
   {
     "imagePath": "flag_to.jpg",
-    "correctAnswer": "Tonga",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tonga",
+      "en": "Tonga",
+      "ru": "Тонга"
+    }
   },
   {
     "imagePath": "flag_tt.jpg",
-    "correctAnswer": "Trinidad and Tobago",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Trinidad ve Tobago",
+      "en": "Trinidad and Tobago",
+      "ru": "Тринидад и Тобаго"
+    }
   },
   {
     "imagePath": "flag_tn.jpg",
-    "correctAnswer": "Tunisia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tunus",
+      "en": "Tunisia",
+      "ru": "Тунис"
+    }
   },
   {
     "imagePath": "flag_tm.jpg",
-    "correctAnswer": "Turkmenistan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Türkmenistan",
+      "en": "Turkmenistan",
+      "ru": "Туркменистан"
+    }
   },
   {
     "imagePath": "flag_tc.jpg",
-    "correctAnswer": "Turks and Caicos Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Turks ve Caicos Adaları",
+      "en": "Turks and Caicos Islands",
+      "ru": "Тёркс и Кайкос"
+    }
   },
   {
     "imagePath": "flag_tv.jpg",
-    "correctAnswer": "Tuvalu",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Tuvalu",
+      "en": "Tuvalu",
+      "ru": "Тувалу"
+    }
   },
   {
     "imagePath": "flag_tr.jpg",
-    "correctAnswer": "Türkiye",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Türkiye",
+      "en": "Türkiye",
+      "ru": "Турция"
+    }
   },
   {
     "imagePath": "flag_ug.jpg",
-    "correctAnswer": "Uganda",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Uganda",
+      "en": "Uganda",
+      "ru": "Уганда"
+    }
   },
   {
     "imagePath": "flag_ua.jpg",
-    "correctAnswer": "Ukraine",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Ukrayna",
+      "en": "Ukraine",
+      "ru": "Украина"
+    }
   },
   {
     "imagePath": "flag_ae.jpg",
-    "correctAnswer": "United Arab Emirates",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Birleşik Arap Emirlikleri",
+      "en": "United Arab Emirates",
+      "ru": "ОАЭ"
+    }
   },
   {
     "imagePath": "flag_gb.jpg",
-    "correctAnswer": "United Kingdom",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Birleşik Krallık",
+      "en": "United Kingdom",
+      "ru": "Великобритания"
+    }
   },
   {
     "imagePath": "flag_um.jpg",
-    "correctAnswer": "United States Minor Outlying Islands",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "ABD Küçük Harici Adaları",
+      "en": "United States Minor Outlying Islands",
+      "ru": "Внешние малые о-ва (США)"
+    }
   },
   {
     "imagePath": "flag_us.jpg",
-    "correctAnswer": "United States of America",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Amerika Birleşik Devletleri",
+      "en": "United States of America",
+      "ru": "Соединенные Штаты"
+    }
   },
   {
     "imagePath": "flag_uy.jpg",
-    "correctAnswer": "Uruguay",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Uruguay",
+      "en": "Uruguay",
+      "ru": "Уругвай"
+    }
   },
   {
     "imagePath": "flag_uz.jpg",
-    "correctAnswer": "Uzbekistan",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Özbekistan",
+      "en": "Uzbekistan",
+      "ru": "Узбекистан"
+    }
   },
   {
     "imagePath": "flag_vu.jpg",
-    "correctAnswer": "Vanuatu",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Vanuatu",
+      "en": "Vanuatu",
+      "ru": "Вануату"
+    }
   },
   {
     "imagePath": "flag_ve.jpg",
-    "correctAnswer": "Venezuela",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Venezuela",
+      "en": "Venezuela",
+      "ru": "Венесуэла"
+    }
   },
   {
     "imagePath": "flag_vn.jpg",
-    "correctAnswer": "Vietnam",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Vietnam",
+      "en": "Vietnam",
+      "ru": "Вьетнам"
+    }
   },
   {
     "imagePath": "flag_vg.jpg",
-    "correctAnswer": "Virgin Islands (British)",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Britanya Virjin Adaları",
+      "en": "Virgin Islands (British)",
+      "ru": "Виргинские о-ва (Великобритания)"
+    }
   },
   {
     "imagePath": "flag_vi.jpg",
-    "correctAnswer": "Virgin Islands (U.S.)",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "ABD Virjin Adaları",
+      "en": "Virgin Islands (U.S.)",
+      "ru": "Виргинские о-ва (США)"
+    }
   },
   {
     "imagePath": "flag_wf.jpg",
-    "correctAnswer": "Wallis and Futuna",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Wallis ve Futuna",
+      "en": "Wallis and Futuna",
+      "ru": "Уоллис и Футуна"
+    }
   },
   {
     "imagePath": "flag_eh.jpg",
-    "correctAnswer": "Western Sahara",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Batı Sahra",
+      "en": "Western Sahara",
+      "ru": "Западная Сахара"
+    }
   },
   {
     "imagePath": "flag_ye.jpg",
-    "correctAnswer": "Yemen",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Yemen",
+      "en": "Yemen",
+      "ru": "Йемен"
+    }
   },
   {
     "imagePath": "flag_zm.jpg",
-    "correctAnswer": "Zambia",
-    "category": "bayrak"
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Zambiya",
+      "en": "Zambia",
+      "ru": "Замбия"
+    }
   },
   {
     "imagePath": "flag_zw.jpg",
-    "correctAnswer": "Zimbabwe",
+    "category": "bayrak",
+    "correctAnswer": {
+      "tr": "Zimbabve",
+      "en": "Zimbabwe",
+      "ru": "Зимбабве"
+    }
+  },
+  {
+    "imagePath": "flag_trnc.jpg",
+    "correctAnswer": {
+      "tr": "Kuzey Kıbrıs Türk Cumhuriyeti",
+      "en": "Northern Cyprus",
+      "ru": "Северный Кипр"
+    },
     "category": "bayrak"
   },
   {
     "imagePath": "animal_lion.jpg",
-    "correctAnswer": "Lion",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Aslan",
+      "en": "Lion",
+      "ru": "Лев"
+    }
   },
   {
     "imagePath": "animal_tiger.jpg",
-    "correctAnswer": "Tiger",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kaplan",
+      "en": "Tiger",
+      "ru": "Тигр"
+    }
   },
   {
     "imagePath": "animal_leopard.jpg",
-    "correctAnswer": "Leopard",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Leopar",
+      "en": "Leopard",
+      "ru": "Леопард"
+    }
   },
   {
     "imagePath": "animal_elephant.jpg",
-    "correctAnswer": "Elephant",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Fil",
+      "en": "Elephant",
+      "ru": "Слон"
+    }
   },
   {
     "imagePath": "animal_giraffe.jpg",
-    "correctAnswer": "Giraffe",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Zürafa",
+      "en": "Giraffe",
+      "ru": "Жираф"
+    }
   },
   {
     "imagePath": "animal_zebra.jpg",
-    "correctAnswer": "Zebra",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Zebra",
+      "en": "Zebra",
+      "ru": "Зебра"
+    }
   },
   {
     "imagePath": "animal_rhinoceros.jpg",
-    "correctAnswer": "Rhinoceros",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Gergedan",
+      "en": "Rhinoceros",
+      "ru": "Носорог"
+    }
   },
   {
     "imagePath": "animal_hippopotamus.jpg",
-    "correctAnswer": "Hippopotamus",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Su Aygırı",
+      "en": "Hippopotamus",
+      "ru": "Бегемот"
+    }
   },
   {
     "imagePath": "animal_bear.jpg",
-    "correctAnswer": "Bear",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Ayı",
+      "en": "Bear",
+      "ru": "Медведь"
+    }
   },
   {
     "imagePath": "animal_polar_bear.jpg",
-    "correctAnswer": "Polar Bear",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kutup Ayısı",
+      "en": "Polar Bear",
+      "ru": "Белый медведь"
+    }
   },
   {
     "imagePath": "animal_panda.jpg",
-    "correctAnswer": "Panda",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Panda",
+      "en": "Panda",
+      "ru": "Панда"
+    }
   },
   {
     "imagePath": "animal_koala.jpg",
-    "correctAnswer": "Koala",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Koala",
+      "en": "Koala",
+      "ru": "Коала"
+    }
   },
   {
     "imagePath": "animal_kangaroo.jpg",
-    "correctAnswer": "Kangaroo",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kanguru",
+      "en": "Kangaroo",
+      "ru": "Кенгуру"
+    }
   },
   {
     "imagePath": "animal_monkey.jpg",
-    "correctAnswer": "Monkey",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Maymun",
+      "en": "Monkey",
+      "ru": "Обезьяна"
+    }
   },
   {
     "imagePath": "animal_gorilla.jpg",
-    "correctAnswer": "Gorilla",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Goril",
+      "en": "Gorilla",
+      "ru": "Горилла"
+    }
   },
   {
     "imagePath": "animal_orangutan.jpg",
-    "correctAnswer": "Orangutan",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Orangutan",
+      "en": "Orangutan",
+      "ru": "Орангутан"
+    }
   },
   {
     "imagePath": "animal_wolf.jpg",
-    "correctAnswer": "Wolf",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kurt",
+      "en": "Wolf",
+      "ru": "Волк"
+    }
   },
   {
     "imagePath": "animal_fox.jpg",
-    "correctAnswer": "Fox",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Tilki",
+      "en": "Fox",
+      "ru": "Лиса"
+    }
   },
   {
     "imagePath": "animal_raccoon.jpg",
-    "correctAnswer": "Raccoon",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Rakun",
+      "en": "Raccoon",
+      "ru": "Енот"
+    }
   },
   {
     "imagePath": "animal_dog.jpg",
-    "correctAnswer": "Dog",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Köpek",
+      "en": "Dog",
+      "ru": "Собака"
+    }
   },
   {
     "imagePath": "animal_cat.jpg",
-    "correctAnswer": "Cat",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kedi",
+      "en": "Cat",
+      "ru": "Кошка"
+    }
   },
   {
     "imagePath": "animal_rabbit.jpg",
-    "correctAnswer": "Rabbit",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Tavşan",
+      "en": "Rabbit",
+      "ru": "Кролик"
+    }
   },
   {
     "imagePath": "animal_hedgehog.jpg",
-    "correctAnswer": "Hedgehog",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kirpi",
+      "en": "Hedgehog",
+      "ru": "Ёж"
+    }
   },
   {
     "imagePath": "animal_bat.jpg",
-    "correctAnswer": "Bat",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Yarasa",
+      "en": "Bat",
+      "ru": "Летучая мышь"
+    }
   },
   {
     "imagePath": "animal_deer.jpg",
-    "correctAnswer": "Deer",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Geyik",
+      "en": "Deer",
+      "ru": "Олень"
+    }
   },
   {
     "imagePath": "animal_camel.jpg",
-    "correctAnswer": "Camel",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Deve",
+      "en": "Camel",
+      "ru": "Верблюд"
+    }
   },
   {
     "imagePath": "animal_llama.jpg",
-    "correctAnswer": "Llama",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Lama",
+      "en": "Llama",
+      "ru": "Лама"
+    }
   },
   {
     "imagePath": "animal_horse.jpg",
-    "correctAnswer": "Horse",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "At",
+      "en": "Horse",
+      "ru": "Лошадь"
+    }
   },
   {
     "imagePath": "animal_cow.jpg",
-    "correctAnswer": "Cow",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "İnek",
+      "en": "Cow",
+      "ru": "Корова"
+    }
   },
   {
     "imagePath": "animal_pig.jpg",
-    "correctAnswer": "Pig",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Domuz",
+      "en": "Pig",
+      "ru": "Свинья"
+    }
   },
   {
     "imagePath": "animal_sheep.jpg",
-    "correctAnswer": "Sheep",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Koyun",
+      "en": "Sheep",
+      "ru": "Овца"
+    }
   },
   {
     "imagePath": "animal_goat.jpg",
-    "correctAnswer": "Goat",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Keçi",
+      "en": "Goat",
+      "ru": "Коза"
+    }
   },
   {
     "imagePath": "animal_chicken.jpg",
-    "correctAnswer": "Chicken",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Tavuk",
+      "en": "Chicken",
+      "ru": "Курица"
+    }
   },
   {
     "imagePath": "animal_rooster.jpg",
-    "correctAnswer": "Rooster",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Horoz",
+      "en": "Rooster",
+      "ru": "Петух"
+    }
   },
   {
     "imagePath": "animal_turkey.jpg",
-    "correctAnswer": "Turkey",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Hindi",
+      "en": "Turkey",
+      "ru": "Индюк"
+    }
   },
   {
     "imagePath": "animal_duck.jpg",
-    "correctAnswer": "Duck",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Ördek",
+      "en": "Duck",
+      "ru": "Утка"
+    }
   },
   {
     "imagePath": "animal_swan.jpg",
-    "correctAnswer": "Swan",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kuğu",
+      "en": "Swan",
+      "ru": "Лебедь"
+    }
   },
   {
     "imagePath": "animal_owl.jpg",
-    "correctAnswer": "Owl",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Baykuş",
+      "en": "Owl",
+      "ru": "Сова"
+    }
   },
   {
     "imagePath": "animal_eagle.jpg",
-    "correctAnswer": "Eagle",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kartal",
+      "en": "Eagle",
+      "ru": "Орёл"
+    }
   },
   {
     "imagePath": "animal_parrot.jpg",
-    "correctAnswer": "Parrot",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Papağan",
+      "en": "Parrot",
+      "ru": "Попугай"
+    }
   },
   {
     "imagePath": "animal_flamingo.jpg",
-    "correctAnswer": "Flamingo",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Flamingo",
+      "en": "Flamingo",
+      "ru": "Фламинго"
+    }
   },
   {
     "imagePath": "animal_peacock.jpg",
-    "correctAnswer": "Peacock",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Tavus Kuşu",
+      "en": "Peacock",
+      "ru": "Павлин"
+    }
   },
   {
     "imagePath": "animal_penguin.jpg",
-    "correctAnswer": "Penguin",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Penguen",
+      "en": "Penguin",
+      "ru": "Пингвин"
+    }
   },
   {
     "imagePath": "animal_dove.jpg",
-    "correctAnswer": "Dove",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Güvercin",
+      "en": "Dove",
+      "ru": "Голубь"
+    }
   },
   {
     "imagePath": "animal_crow.jpg",
-    "correctAnswer": "Crow",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Karga",
+      "en": "Crow",
+      "ru": "Ворона"
+    }
   },
   {
     "imagePath": "animal_ostrich.jpg",
-    "correctAnswer": "Ostrich",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Devekuşu",
+      "en": "Ostrich",
+      "ru": "Страус"
+    }
   },
   {
     "imagePath": "animal_dolphin.jpg",
-    "correctAnswer": "Dolphin",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Yunus",
+      "en": "Dolphin",
+      "ru": "Дельфин"
+    }
   },
   {
     "imagePath": "animal_whale.jpg",
-    "correctAnswer": "Whale",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Balina",
+      "en": "Whale",
+      "ru": "Кит"
+    }
   },
   {
     "imagePath": "animal_shark.jpg",
-    "correctAnswer": "Shark",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Köpekbalığı",
+      "en": "Shark",
+      "ru": "Акула"
+    }
   },
   {
     "imagePath": "animal_fish.jpg",
-    "correctAnswer": "Fish",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Balık",
+      "en": "Fish",
+      "ru": "Рыба"
+    }
   },
   {
     "imagePath": "animal_octopus.jpg",
-    "correctAnswer": "Octopus",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Ahtapot",
+      "en": "Octopus",
+      "ru": "Осьминог"
+    }
   },
   {
     "imagePath": "animal_squid.jpg",
-    "correctAnswer": "Squid",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kalamar",
+      "en": "Squid",
+      "ru": "Кальмар"
+    }
   },
   {
     "imagePath": "animal_crab.jpg",
-    "correctAnswer": "Crab",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Yengeç",
+      "en": "Crab",
+      "ru": "Краб"
+    }
   },
   {
     "imagePath": "animal_lobster.jpg",
-    "correctAnswer": "Lobster",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Istakoz",
+      "en": "Lobster",
+      "ru": "Омар"
+    }
   },
   {
     "imagePath": "animal_shrimp.jpg",
-    "correctAnswer": "Shrimp",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Karides",
+      "en": "Shrimp",
+      "ru": "Креветка"
+    }
   },
   {
     "imagePath": "animal_turtle.jpg",
-    "correctAnswer": "Turtle",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kaplumbağa",
+      "en": "Turtle",
+      "ru": "Черепаха"
+    }
   },
   {
     "imagePath": "animal_crocodile.jpg",
-    "correctAnswer": "Crocodile",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Timsah",
+      "en": "Crocodile",
+      "ru": "Крокодил"
+    }
   },
   {
     "imagePath": "animal_snake.jpg",
-    "correctAnswer": "Snake",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Yılan",
+      "en": "Snake",
+      "ru": "Змея"
+    }
   },
   {
     "imagePath": "animal_lizard.jpg",
-    "correctAnswer": "Lizard",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kertenkele",
+      "en": "Lizard",
+      "ru": "Ящерица"
+    }
   },
   {
     "imagePath": "animal_frog.jpg",
-    "correctAnswer": "Frog",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kurbağa",
+      "en": "Frog",
+      "ru": "Лягушка"
+    }
   },
   {
     "imagePath": "animal_snail.jpg",
-    "correctAnswer": "Snail",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Salyangoz",
+      "en": "Snail",
+      "ru": "Улитка"
+    }
   },
   {
     "imagePath": "animal_butterfly.jpg",
-    "correctAnswer": "Butterfly",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kelebek",
+      "en": "Butterfly",
+      "ru": "Бабочка"
+    }
   },
   {
     "imagePath": "animal_bee.jpg",
-    "correctAnswer": "Bee",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Arı",
+      "en": "Bee",
+      "ru": "Пчела"
+    }
   },
   {
     "imagePath": "animal_ladybug.jpg",
-    "correctAnswer": "Ladybug",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Uğur Böceği",
+      "en": "Ladybug",
+      "ru": "Божья коровка"
+    }
   },
   {
     "imagePath": "animal_ant.jpg",
-    "correctAnswer": "Ant",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Karınca",
+      "en": "Ant",
+      "ru": "Муравей"
+    }
   },
   {
     "imagePath": "animal_spider.jpg",
-    "correctAnswer": "Spider",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Örümcek",
+      "en": "Spider",
+      "ru": "Паук"
+    }
   },
   {
     "imagePath": "animal_scorpion.jpg",
-    "correctAnswer": "Scorpion",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Akrep",
+      "en": "Scorpion",
+      "ru": "Скорпион"
+    }
   },
   {
     "imagePath": "animal_mosquito.jpg",
-    "correctAnswer": "Mosquito",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Sivrisinek",
+      "en": "Mosquito",
+      "ru": "Комар"
+    }
   },
   {
     "imagePath": "animal_cricket.jpg",
-    "correctAnswer": "Cricket",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Cırcır Böceği",
+      "en": "Cricket",
+      "ru": "Сверчок"
+    }
   },
   {
     "imagePath": "animal_squirrel.jpg",
-    "correctAnswer": "Squirrel",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Sincap",
+      "en": "Squirrel",
+      "ru": "Белка"
+    }
   },
   {
     "imagePath": "animal_otter.jpg",
-    "correctAnswer": "Otter",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Su Samuru",
+      "en": "Otter",
+      "ru": "Выдра"
+    }
   },
   {
     "imagePath": "animal_skunk.jpg",
-    "correctAnswer": "Skunk",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Kokarca",
+      "en": "Skunk",
+      "ru": "Скунс"
+    }
   },
   {
     "imagePath": "animal_badger.jpg",
-    "correctAnswer": "Badger",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Porsuk",
+      "en": "Badger",
+      "ru": "Барсук"
+    }
   },
   {
     "imagePath": "animal_sloth.jpg",
-    "correctAnswer": "Sloth",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Tembel Hayvan",
+      "en": "Sloth",
+      "ru": "Ленивец"
+    }
   },
   {
     "imagePath": "animal_mammoth.jpg",
-    "correctAnswer": "Mammoth",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Mamut",
+      "en": "Mammoth",
+      "ru": "Мамонт"
+    }
   },
   {
     "imagePath": "animal_bison.jpg",
-    "correctAnswer": "Bison",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Bizon",
+      "en": "Bison",
+      "ru": "Бизон"
+    }
   },
   {
     "imagePath": "animal_water_buffalo.jpg",
-    "correctAnswer": "Water Buffalo",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Manda",
+      "en": "Water Buffalo",
+      "ru": "Буйвол"
+    }
   },
   {
     "imagePath": "animal_ox.jpg",
-    "correctAnswer": "Ox",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Öküz",
+      "en": "Ox",
+      "ru": "Бык"
+    }
   },
   {
     "imagePath": "animal_boar.jpg",
-    "correctAnswer": "Boar",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Yaban Domuzu",
+      "en": "Boar",
+      "ru": "Кабан"
+    }
   },
   {
     "imagePath": "animal_mouse.jpg",
-    "correctAnswer": "Mouse",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Fare",
+      "en": "Mouse",
+      "ru": "Мышь"
+    }
   },
   {
     "imagePath": "animal_rat.jpg",
-    "correctAnswer": "Rat",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Sıçan",
+      "en": "Rat",
+      "ru": "Крыса"
+    }
   },
   {
     "imagePath": "animal_hamster.jpg",
-    "correctAnswer": "Hamster",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Hamster",
+      "en": "Hamster",
+      "ru": "Хомяк"
+    }
   },
   {
     "imagePath": "animal_chipmunk.jpg",
-    "correctAnswer": "Chipmunk",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Bahçe Sincabı",
+      "en": "Chipmunk",
+      "ru": "Бурундук"
+    }
   },
   {
     "imagePath": "animal_seal.jpg",
-    "correctAnswer": "Seal",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Fok",
+      "en": "Seal",
+      "ru": "Тюлень"
+    }
   },
   {
     "imagePath": "animal_unicorn.jpg",
-    "correctAnswer": "Unicorn",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Tek Boynuzlu At",
+      "en": "Unicorn",
+      "ru": "Единорог"
+    }
   },
   {
     "imagePath": "animal_dragon.jpg",
-    "correctAnswer": "Dragon",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Ejderha",
+      "en": "Dragon",
+      "ru": "Дракон"
+    }
   },
   {
     "imagePath": "animal_dinosaur.jpg",
-    "correctAnswer": "Dinosaur",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Dinozor",
+      "en": "Dinosaur",
+      "ru": "Динозавр"
+    }
   },
   {
     "imagePath": "animal_t_rex.jpg",
-    "correctAnswer": "T-Rex",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "T-Rex",
+      "en": "T-Rex",
+      "ru": "Тираннозавр"
+    }
   },
   {
     "imagePath": "animal_chick.jpg",
-    "correctAnswer": "Chick",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Civciv",
+      "en": "Chick",
+      "ru": "Цыплёнок"
+    }
   },
   {
     "imagePath": "animal_baby_chick.jpg",
-    "correctAnswer": "Baby Chick",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Yavru Civciv",
+      "en": "Baby Chick",
+      "ru": "Цыплёнок"
+    }
   },
   {
     "imagePath": "animal_cricket_insect.jpg",
-    "correctAnswer": "Cricket Insect",
-    "category": "hayvan"
+    "category": "hayvan",
+    "correctAnswer": {
+      "tr": "Cırcır Böceği",
+      "en": "Cricket Insect",
+      "ru": "Сверчок"
+    }
+  },
+  {
+    "imagePath": "object_book.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kitap",
+      "en": "Book",
+      "ru": "Книга"
+    }
+  },
+  {
+    "imagePath": "object_open_book.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Açık Kitap",
+      "en": "Open Book",
+      "ru": "Открытая книга"
+    }
+  },
+  {
+    "imagePath": "object_notebook.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Defter",
+      "en": "Notebook",
+      "ru": "Тетрадь"
+    }
+  },
+  {
+    "imagePath": "object_pencil.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kurşun Kalem",
+      "en": "Pencil",
+      "ru": "Карандаш"
+    }
+  },
+  {
+    "imagePath": "object_pen.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Tükenmez Kalem",
+      "en": "Pen",
+      "ru": "Ручка"
+    }
+  },
+  {
+    "imagePath": "object_crayon.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Pastel Boya",
+      "en": "Crayon",
+      "ru": "Восковой мелок"
+    }
+  },
+  {
+    "imagePath": "object_ruler.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Cetvel",
+      "en": "Ruler",
+      "ru": "Линейка"
+    }
+  },
+  {
+    "imagePath": "object_scissors.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Makas",
+      "en": "Scissors",
+      "ru": "Ножницы"
+    }
+  },
+  {
+    "imagePath": "object_paperclip.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Ataş",
+      "en": "Paperclip",
+      "ru": "Скрепка"
+    }
+  },
+  {
+    "imagePath": "object_pushpin.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Raptiye",
+      "en": "Pushpin",
+      "ru": "Кнопка"
+    }
+  },
+  {
+    "imagePath": "object_backpack.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Sırt Çantası",
+      "en": "Backpack",
+      "ru": "Рюкзак"
+    }
+  },
+  {
+    "imagePath": "object_briefcase.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Evrak Çantası",
+      "en": "Briefcase",
+      "ru": "Портфель"
+    }
+  },
+  {
+    "imagePath": "object_glasses.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Gözlük",
+      "en": "Glasses",
+      "ru": "Очки"
+    }
+  },
+  {
+    "imagePath": "object_sunglasses.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Güneş Gözlüğü",
+      "en": "Sunglasses",
+      "ru": "Солнцезащитные очки"
+    }
+  },
+  {
+    "imagePath": "object_umbrella.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Şemsiye",
+      "en": "Umbrella",
+      "ru": "Зонт"
+    }
+  },
+  {
+    "imagePath": "object_watch.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kol Saati",
+      "en": "Watch",
+      "ru": "Наручные часы"
+    }
+  },
+  {
+    "imagePath": "object_alarm_clock.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Çalar Saat",
+      "en": "Alarm Clock",
+      "ru": "Будильник"
+    }
+  },
+  {
+    "imagePath": "object_camera.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Fotoğraf Makinesi",
+      "en": "Camera",
+      "ru": "Камера"
+    }
+  },
+  {
+    "imagePath": "object_telephone.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Telefon",
+      "en": "Telephone",
+      "ru": "Телефон"
+    }
+  },
+  {
+    "imagePath": "object_mobile_phone.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Cep Telefonu",
+      "en": "Mobile Phone",
+      "ru": "Мобильный телефон"
+    }
+  },
+  {
+    "imagePath": "object_laptop.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Dizüstü Bilgisayar",
+      "en": "Laptop",
+      "ru": "Ноутбук"
+    }
+  },
+  {
+    "imagePath": "object_television.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Televizyon",
+      "en": "Television",
+      "ru": "Телевизор"
+    }
+  },
+  {
+    "imagePath": "object_radio.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Radyo",
+      "en": "Radio",
+      "ru": "Радио"
+    }
+  },
+  {
+    "imagePath": "object_joystick.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Oyun Kolu",
+      "en": "Joystick",
+      "ru": "Джойстик"
+    }
+  },
+  {
+    "imagePath": "object_video_game.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Video Oyunu",
+      "en": "Video Game",
+      "ru": "Видеоигра"
+    }
+  },
+  {
+    "imagePath": "object_key.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Anahtar",
+      "en": "Key",
+      "ru": "Ключ"
+    }
+  },
+  {
+    "imagePath": "object_lock.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kilit",
+      "en": "Lock",
+      "ru": "Замок"
+    }
+  },
+  {
+    "imagePath": "object_light_bulb.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Ampul",
+      "en": "Light Bulb",
+      "ru": "Лампочка"
+    }
+  },
+  {
+    "imagePath": "object_flashlight.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "El Feneri",
+      "en": "Flashlight",
+      "ru": "Фонарик"
+    }
+  },
+  {
+    "imagePath": "object_candle.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Mum",
+      "en": "Candle",
+      "ru": "Свеча"
+    }
+  },
+  {
+    "imagePath": "object_chair.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Sandalye",
+      "en": "Chair",
+      "ru": "Стул"
+    }
+  },
+  {
+    "imagePath": "object_couch.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kanepe",
+      "en": "Couch",
+      "ru": "Диван"
+    }
+  },
+  {
+    "imagePath": "object_bed.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Yatak",
+      "en": "Bed",
+      "ru": "Кровать"
+    }
+  },
+  {
+    "imagePath": "object_door.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kapı",
+      "en": "Door",
+      "ru": "Дверь"
+    }
+  },
+  {
+    "imagePath": "object_window.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Pencere",
+      "en": "Window",
+      "ru": "Окно"
+    }
+  },
+  {
+    "imagePath": "object_bathtub.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Küvet",
+      "en": "Bathtub",
+      "ru": "Ванна"
+    }
+  },
+  {
+    "imagePath": "object_shower.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Duş",
+      "en": "Shower",
+      "ru": "Душ"
+    }
+  },
+  {
+    "imagePath": "object_toothbrush.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Diş Fırçası",
+      "en": "Toothbrush",
+      "ru": "Зубная щётка"
+    }
+  },
+  {
+    "imagePath": "object_soap.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Sabun",
+      "en": "Soap",
+      "ru": "Мыло"
+    }
+  },
+  {
+    "imagePath": "object_broom.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Süpürge",
+      "en": "Broom",
+      "ru": "Метла"
+    }
+  },
+  {
+    "imagePath": "object_basket.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Sepet",
+      "en": "Basket",
+      "ru": "Корзина"
+    }
+  },
+  {
+    "imagePath": "object_trash_can.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Çöp Kutusu",
+      "en": "Trash Can",
+      "ru": "Мусорное ведро"
+    }
+  },
+  {
+    "imagePath": "object_hammer.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Çekiç",
+      "en": "Hammer",
+      "ru": "Молоток"
+    }
+  },
+  {
+    "imagePath": "object_wrench.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "İngiliz Anahtarı",
+      "en": "Wrench",
+      "ru": "Гаечный ключ"
+    }
+  },
+  {
+    "imagePath": "object_screwdriver.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Tornavida",
+      "en": "Screwdriver",
+      "ru": "Отвёртка"
+    }
+  },
+  {
+    "imagePath": "object_axe.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Balta",
+      "en": "Axe",
+      "ru": "Топор"
+    }
+  },
+  {
+    "imagePath": "object_kitchen_knife.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Mutfak Bıçağı",
+      "en": "Kitchen Knife",
+      "ru": "Кухонный нож"
+    }
+  },
+  {
+    "imagePath": "object_magnet.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Mıknatıs",
+      "en": "Magnet",
+      "ru": "Магнит"
+    }
+  },
+  {
+    "imagePath": "object_gear.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Dişli",
+      "en": "Gear",
+      "ru": "Шестерня"
+    }
+  },
+  {
+    "imagePath": "object_umbrella_rain.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Yağmur Şemsiyesi",
+      "en": "Umbrella Rain",
+      "ru": "Зонт от дождя"
+    }
+  },
+  {
+    "imagePath": "object_crown.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Taç",
+      "en": "Crown",
+      "ru": "Корона"
+    }
+  },
+  {
+    "imagePath": "object_top_hat.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Silindir Şapka",
+      "en": "Top Hat",
+      "ru": "Цилиндр"
+    }
+  },
+  {
+    "imagePath": "object_cap.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kasket",
+      "en": "Cap",
+      "ru": "Кепка"
+    }
+  },
+  {
+    "imagePath": "object_shoe.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Ayakkabı",
+      "en": "Shoe",
+      "ru": "Туфля"
+    }
+  },
+  {
+    "imagePath": "object_sneaker.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Spor Ayakkabı",
+      "en": "Sneaker",
+      "ru": "Кроссовок"
+    }
+  },
+  {
+    "imagePath": "object_high_heel.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Topuklu Ayakkabı",
+      "en": "High Heel",
+      "ru": "Туфля на каблуке"
+    }
+  },
+  {
+    "imagePath": "object_dress.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Elbise",
+      "en": "Dress",
+      "ru": "Платье"
+    }
+  },
+  {
+    "imagePath": "object_necktie.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kravat",
+      "en": "Necktie",
+      "ru": "Галстук"
+    }
+  },
+  {
+    "imagePath": "object_socks.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Çorap",
+      "en": "Socks",
+      "ru": "Носки"
+    }
+  },
+  {
+    "imagePath": "object_gloves.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Eldiven",
+      "en": "Gloves",
+      "ru": "Перчатки"
+    }
+  },
+  {
+    "imagePath": "object_scarf.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Atkı",
+      "en": "Scarf",
+      "ru": "Шарф"
+    }
+  },
+  {
+    "imagePath": "object_ring.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Yüzük",
+      "en": "Ring",
+      "ru": "Кольцо"
+    }
+  },
+  {
+    "imagePath": "object_handbag.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "El Çantası",
+      "en": "Handbag",
+      "ru": "Сумка"
+    }
+  },
+  {
+    "imagePath": "object_gift.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Hediye",
+      "en": "Gift",
+      "ru": "Подарок"
+    }
+  },
+  {
+    "imagePath": "object_balloon.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Balon",
+      "en": "Balloon",
+      "ru": "Воздушный шар"
+    }
+  },
+  {
+    "imagePath": "object_kite.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Uçurtma",
+      "en": "Kite",
+      "ru": "Воздушный змей"
+    }
+  },
+  {
+    "imagePath": "object_teddy_bear.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Oyuncak Ayı",
+      "en": "Teddy Bear",
+      "ru": "Плюшевый мишка"
+    }
+  },
+  {
+    "imagePath": "object_soccer_ball.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Futbol Topu",
+      "en": "Soccer Ball",
+      "ru": "Футбольный мяч"
+    }
+  },
+  {
+    "imagePath": "object_basketball.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Basketbol Topu",
+      "en": "Basketball",
+      "ru": "Баскетбольный мяч"
+    }
+  },
+  {
+    "imagePath": "object_american_football.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Amerikan Futbolu Topu",
+      "en": "American Football",
+      "ru": "Мяч для американского футбола"
+    }
+  },
+  {
+    "imagePath": "object_baseball.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Beyzbol Topu",
+      "en": "Baseball",
+      "ru": "Бейсбольный мяч"
+    }
+  },
+  {
+    "imagePath": "object_tennis.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Tenis Topu",
+      "en": "Tennis",
+      "ru": "Теннисный мяч"
+    }
+  },
+  {
+    "imagePath": "object_volleyball.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Voleybol Topu",
+      "en": "Volleyball",
+      "ru": "Волейбольный мяч"
+    }
+  },
+  {
+    "imagePath": "object_rugby_ball.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Ragbi Topu",
+      "en": "Rugby Ball",
+      "ru": "Мяч для регби"
+    }
+  },
+  {
+    "imagePath": "object_8_ball.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Bilardo Topu",
+      "en": "8 Ball",
+      "ru": "Бильярдный шар"
+    }
+  },
+  {
+    "imagePath": "object_ping_pong.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Masa Tenisi",
+      "en": "Ping Pong",
+      "ru": "Настольный теннис"
+    }
+  },
+  {
+    "imagePath": "object_badminton.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Badminton",
+      "en": "Badminton",
+      "ru": "Бадминтон"
+    }
+  },
+  {
+    "imagePath": "object_boxing_glove.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Boks Eldiveni",
+      "en": "Boxing Glove",
+      "ru": "Боксёрская перчатка"
+    }
+  },
+  {
+    "imagePath": "object_dart.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Dart",
+      "en": "Dart",
+      "ru": "Дротик"
+    }
+  },
+  {
+    "imagePath": "object_fishing_pole.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Olta",
+      "en": "Fishing Pole",
+      "ru": "Удочка"
+    }
+  },
+  {
+    "imagePath": "object_skateboard.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kaykay",
+      "en": "Skateboard",
+      "ru": "Скейтборд"
+    }
+  },
+  {
+    "imagePath": "object_scooter.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Skuter",
+      "en": "Scooter",
+      "ru": "Самокат"
+    }
+  },
+  {
+    "imagePath": "object_bicycle.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Bisiklet",
+      "en": "Bicycle",
+      "ru": "Велосипед"
+    }
+  },
+  {
+    "imagePath": "object_car.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Araba",
+      "en": "Car",
+      "ru": "Машина"
+    }
+  },
+  {
+    "imagePath": "object_taxi.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Taksi",
+      "en": "Taxi",
+      "ru": "Такси"
+    }
+  },
+  {
+    "imagePath": "object_bus.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Otobüs",
+      "en": "Bus",
+      "ru": "Автобус"
+    }
+  },
+  {
+    "imagePath": "object_ambulance.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Ambulans",
+      "en": "Ambulance",
+      "ru": "Скорая помощь"
+    }
+  },
+  {
+    "imagePath": "object_fire_truck.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "İtfaiye Aracı",
+      "en": "Fire Truck",
+      "ru": "Пожарная машина"
+    }
+  },
+  {
+    "imagePath": "object_police_car.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Polis Arabası",
+      "en": "Police Car",
+      "ru": "Полицейская машина"
+    }
+  },
+  {
+    "imagePath": "object_truck.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Kamyon",
+      "en": "Truck",
+      "ru": "Грузовик"
+    }
+  },
+  {
+    "imagePath": "object_tractor.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Traktör",
+      "en": "Tractor",
+      "ru": "Трактор"
+    }
+  },
+  {
+    "imagePath": "object_motorcycle.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Motosiklet",
+      "en": "Motorcycle",
+      "ru": "Мотоцикл"
+    }
+  },
+  {
+    "imagePath": "object_airplane.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Uçak",
+      "en": "Airplane",
+      "ru": "Самолёт"
+    }
+  },
+  {
+    "imagePath": "object_rocket.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Roket",
+      "en": "Rocket",
+      "ru": "Ракета"
+    }
+  },
+  {
+    "imagePath": "object_helicopter.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Helikopter",
+      "en": "Helicopter",
+      "ru": "Вертолёт"
+    }
+  },
+  {
+    "imagePath": "object_sailboat.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Yelkenli",
+      "en": "Sailboat",
+      "ru": "Парусник"
+    }
+  },
+  {
+    "imagePath": "object_ship.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Gemi",
+      "en": "Ship",
+      "ru": "Корабль"
+    }
+  },
+  {
+    "imagePath": "object_anchor.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Çapa",
+      "en": "Anchor",
+      "ru": "Якорь"
+    }
+  },
+  {
+    "imagePath": "object_guitar.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Gitar",
+      "en": "Guitar",
+      "ru": "Гитара"
+    }
+  },
+  {
+    "imagePath": "object_piano.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Piyano",
+      "en": "Piano",
+      "ru": "Пианино"
+    }
+  },
+  {
+    "imagePath": "object_drum.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Davul",
+      "en": "Drum",
+      "ru": "Барабан"
+    }
+  },
+  {
+    "imagePath": "object_trumpet.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Trompet",
+      "en": "Trumpet",
+      "ru": "Труба"
+    }
+  },
+  {
+    "imagePath": "object_saxophone.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Saksafon",
+      "en": "Saxophone",
+      "ru": "Саксофон"
+    }
+  },
+  {
+    "imagePath": "object_violin.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Keman",
+      "en": "Violin",
+      "ru": "Скрипка"
+    }
+  },
+  {
+    "imagePath": "object_movie_camera.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Film Kamerası",
+      "en": "Movie Camera",
+      "ru": "Кинокамера"
+    }
+  },
+  {
+    "imagePath": "object_clapper_board.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Klaket",
+      "en": "Clapper Board",
+      "ru": "Хлопушка"
+    }
+  },
+  {
+    "imagePath": "object_dice.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Zar",
+      "en": "Dice",
+      "ru": "Игральные кости"
+    }
+  },
+  {
+    "imagePath": "object_chess_pawn.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Satranç Piyonu",
+      "en": "Chess Pawn",
+      "ru": "Шахматная пешка"
+    }
+  },
+  {
+    "imagePath": "object_puzzle_piece.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Yapboz Parçası",
+      "en": "Puzzle Piece",
+      "ru": "Кусочек пазла"
+    }
+  },
+  {
+    "imagePath": "object_yo_yo.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Yoyo",
+      "en": "Yo-Yo",
+      "ru": "Йо-йо"
+    }
+  },
+  {
+    "imagePath": "object_palette.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Ressam Paleti",
+      "en": "Palette",
+      "ru": "Палитра"
+    }
+  },
+  {
+    "imagePath": "object_framed_picture.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Çerçeveli Resim",
+      "en": "Framed Picture",
+      "ru": "Картина в раме"
+    }
+  },
+  {
+    "imagePath": "object_envelope.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Zarf",
+      "en": "Envelope",
+      "ru": "Конверт"
+    }
+  },
+  {
+    "imagePath": "object_package.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Paket",
+      "en": "Package",
+      "ru": "Посылка"
+    }
+  },
+  {
+    "imagePath": "object_newspaper.jpg",
+    "category": "nesne",
+    "correctAnswer": {
+      "tr": "Gazete",
+      "en": "Newspaper",
+      "ru": "Газета"
+    }
   }
 ]
