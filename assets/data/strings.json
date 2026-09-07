@@ -209,6 +209,16 @@
     "en": "What Is This?",
     "ru": "Что это?"
   },
+  "category_yiyecek": {
+    "tr": "Yiyecek & İçecek",
+    "en": "Food & Drink",
+    "ru": "Еда и напитки"
+  },
+  "guess_title_yiyecek": {
+    "tr": "Bu Ne?",
+    "en": "What Is This?",
+    "ru": "Что это?"
+  },
   "choose_category": {
     "tr": "Kategori Seç",
     "en": "Choose Category",

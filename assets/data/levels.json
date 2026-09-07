@@ -5002,5 +5002,860 @@
       "en": "Newspaper",
       "ru": "Газета"
     }
+  },
+  {
+    "imagePath": "food_apple.jpg",
+    "correctAnswer": {
+      "tr": "Elma",
+      "en": "Apple",
+      "ru": "Яблоко"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_green_apple.jpg",
+    "correctAnswer": {
+      "tr": "Yeşil Elma",
+      "en": "Green Apple",
+      "ru": "Зелёное яблоко"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_banana.jpg",
+    "correctAnswer": {
+      "tr": "Muz",
+      "en": "Banana",
+      "ru": "Банан"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_orange.jpg",
+    "correctAnswer": {
+      "tr": "Portakal",
+      "en": "Orange",
+      "ru": "Апельсин"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_lemon.jpg",
+    "correctAnswer": {
+      "tr": "Limon",
+      "en": "Lemon",
+      "ru": "Лимон"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_watermelon.jpg",
+    "correctAnswer": {
+      "tr": "Karpuz",
+      "en": "Watermelon",
+      "ru": "Арбуз"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_grapes.jpg",
+    "correctAnswer": {
+      "tr": "Üzüm",
+      "en": "Grapes",
+      "ru": "Виноград"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_strawberry.jpg",
+    "correctAnswer": {
+      "tr": "Çilek",
+      "en": "Strawberry",
+      "ru": "Клубника"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cherries.jpg",
+    "correctAnswer": {
+      "tr": "Kiraz",
+      "en": "Cherries",
+      "ru": "Вишня"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_peach.jpg",
+    "correctAnswer": {
+      "tr": "Şeftali",
+      "en": "Peach",
+      "ru": "Персик"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_pineapple.jpg",
+    "correctAnswer": {
+      "tr": "Ananas",
+      "en": "Pineapple",
+      "ru": "Ананас"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_mango.jpg",
+    "correctAnswer": {
+      "tr": "Mango",
+      "en": "Mango",
+      "ru": "Манго"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_kiwi_fruit.jpg",
+    "correctAnswer": {
+      "tr": "Kivi",
+      "en": "Kiwi Fruit",
+      "ru": "Киви"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_coconut.jpg",
+    "correctAnswer": {
+      "tr": "Hindistan Cevizi",
+      "en": "Coconut",
+      "ru": "Кокос"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_avocado.jpg",
+    "correctAnswer": {
+      "tr": "Avokado",
+      "en": "Avocado",
+      "ru": "Авокадо"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_tomato.jpg",
+    "correctAnswer": {
+      "tr": "Domates",
+      "en": "Tomato",
+      "ru": "Помидор"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_carrot.jpg",
+    "correctAnswer": {
+      "tr": "Havuç",
+      "en": "Carrot",
+      "ru": "Морковь"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_corn.jpg",
+    "correctAnswer": {
+      "tr": "Mısır",
+      "en": "Corn",
+      "ru": "Кукуруза"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_potato.jpg",
+    "correctAnswer": {
+      "tr": "Patates",
+      "en": "Potato",
+      "ru": "Картофель"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_onion.jpg",
+    "correctAnswer": {
+      "tr": "Soğan",
+      "en": "Onion",
+      "ru": "Лук"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_garlic.jpg",
+    "correctAnswer": {
+      "tr": "Sarımsak",
+      "en": "Garlic",
+      "ru": "Чеснок"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_broccoli.jpg",
+    "correctAnswer": {
+      "tr": "Brokoli",
+      "en": "Broccoli",
+      "ru": "Брокколи"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cucumber.jpg",
+    "correctAnswer": {
+      "tr": "Salatalık",
+      "en": "Cucumber",
+      "ru": "Огурец"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_bell_pepper.jpg",
+    "correctAnswer": {
+      "tr": "Dolmalık Biber",
+      "en": "Bell Pepper",
+      "ru": "Болгарский перец"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_mushroom.jpg",
+    "correctAnswer": {
+      "tr": "Mantar",
+      "en": "Mushroom",
+      "ru": "Гриб"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_peanuts.jpg",
+    "correctAnswer": {
+      "tr": "Yer Fıstığı",
+      "en": "Peanuts",
+      "ru": "Арахис"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_bread.jpg",
+    "correctAnswer": {
+      "tr": "Ekmek",
+      "en": "Bread",
+      "ru": "Хлеб"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_croissant.jpg",
+    "correctAnswer": {
+      "tr": "Kruvasan",
+      "en": "Croissant",
+      "ru": "Круассан"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_baguette.jpg",
+    "correctAnswer": {
+      "tr": "Baget Ekmek",
+      "en": "Baguette",
+      "ru": "Багет"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_pretzel.jpg",
+    "correctAnswer": {
+      "tr": "Simit (Alman)",
+      "en": "Pretzel",
+      "ru": "Крендель"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_bagel.jpg",
+    "correctAnswer": {
+      "tr": "Simit (Bagel)",
+      "en": "Bagel",
+      "ru": "Бублик"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_pancakes.jpg",
+    "correctAnswer": {
+      "tr": "Krep",
+      "en": "Pancakes",
+      "ru": "Блины"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_waffle.jpg",
+    "correctAnswer": {
+      "tr": "Waffle",
+      "en": "Waffle",
+      "ru": "Вафля"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cheese.jpg",
+    "correctAnswer": {
+      "tr": "Peynir",
+      "en": "Cheese",
+      "ru": "Сыр"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_meat_on_bone.jpg",
+    "correctAnswer": {
+      "tr": "Kemikli Et",
+      "en": "Meat on Bone",
+      "ru": "Мясо на кости"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_poultry_leg.jpg",
+    "correctAnswer": {
+      "tr": "Tavuk Budu",
+      "en": "Poultry Leg",
+      "ru": "Куриная ножка"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_bacon.jpg",
+    "correctAnswer": {
+      "tr": "Domuz Pastırması",
+      "en": "Bacon",
+      "ru": "Бекон"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_hamburger.jpg",
+    "correctAnswer": {
+      "tr": "Hamburger",
+      "en": "Hamburger",
+      "ru": "Гамбургер"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_french_fries.jpg",
+    "correctAnswer": {
+      "tr": "Patates Kızartması",
+      "en": "French Fries",
+      "ru": "Картофель фри"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_pizza.jpg",
+    "correctAnswer": {
+      "tr": "Pizza",
+      "en": "Pizza",
+      "ru": "Пицца"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_hot_dog.jpg",
+    "correctAnswer": {
+      "tr": "Sosisli Sandviç",
+      "en": "Hot Dog",
+      "ru": "Хот-дог"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_sandwich.jpg",
+    "correctAnswer": {
+      "tr": "Sandviç",
+      "en": "Sandwich",
+      "ru": "Сэндвич"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_taco.jpg",
+    "correctAnswer": {
+      "tr": "Taco",
+      "en": "Taco",
+      "ru": "Тако"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_burrito.jpg",
+    "correctAnswer": {
+      "tr": "Burrito",
+      "en": "Burrito",
+      "ru": "Буррито"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_egg.jpg",
+    "correctAnswer": {
+      "tr": "Yumurta",
+      "en": "Egg",
+      "ru": "Яйцо"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_fried_egg.jpg",
+    "correctAnswer": {
+      "tr": "Sahanda Yumurta",
+      "en": "Fried Egg",
+      "ru": "Яичница"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_salad.jpg",
+    "correctAnswer": {
+      "tr": "Salata",
+      "en": "Salad",
+      "ru": "Салат"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_popcorn.jpg",
+    "correctAnswer": {
+      "tr": "Patlamış Mısır",
+      "en": "Popcorn",
+      "ru": "Попкорн"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_butter.jpg",
+    "correctAnswer": {
+      "tr": "Tereyağı",
+      "en": "Butter",
+      "ru": "Масло"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_salt.jpg",
+    "correctAnswer": {
+      "tr": "Tuz",
+      "en": "Salt",
+      "ru": "Соль"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_canned_food.jpg",
+    "correctAnswer": {
+      "tr": "Konserve",
+      "en": "Canned Food",
+      "ru": "Консервы"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_bento_box.jpg",
+    "correctAnswer": {
+      "tr": "Bento Kutusu",
+      "en": "Bento Box",
+      "ru": "Бэнто"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_rice_cracker.jpg",
+    "correctAnswer": {
+      "tr": "Pirinç Krakeri",
+      "en": "Rice Cracker",
+      "ru": "Рисовый крекер"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_rice_ball.jpg",
+    "correctAnswer": {
+      "tr": "Pirinç Topu",
+      "en": "Rice Ball",
+      "ru": "Рисовый шарик"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cooked_rice.jpg",
+    "correctAnswer": {
+      "tr": "Pilav",
+      "en": "Cooked Rice",
+      "ru": "Варёный рис"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_curry_rice.jpg",
+    "correctAnswer": {
+      "tr": "Köri Pilavı",
+      "en": "Curry Rice",
+      "ru": "Рис с карри"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_ramen.jpg",
+    "correctAnswer": {
+      "tr": "Ramen",
+      "en": "Ramen",
+      "ru": "Рамен"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_spaghetti.jpg",
+    "correctAnswer": {
+      "tr": "Spagetti",
+      "en": "Spaghetti",
+      "ru": "Спагетти"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_sweet_potato.jpg",
+    "correctAnswer": {
+      "tr": "Tatlı Patates",
+      "en": "Sweet Potato",
+      "ru": "Батат"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_oden.jpg",
+    "correctAnswer": {
+      "tr": "Oden",
+      "en": "Oden",
+      "ru": "Одэн"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_sushi.jpg",
+    "correctAnswer": {
+      "tr": "Suşi",
+      "en": "Sushi",
+      "ru": "Суши"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_fried_shrimp.jpg",
+    "correctAnswer": {
+      "tr": "Kızarmış Karides",
+      "en": "Fried Shrimp",
+      "ru": "Жареные креветки"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_fish_cake.jpg",
+    "correctAnswer": {
+      "tr": "Balık Keki",
+      "en": "Fish Cake",
+      "ru": "Рыбный пирог"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_dumpling.jpg",
+    "correctAnswer": {
+      "tr": "Mantı (Dumpling)",
+      "en": "Dumpling",
+      "ru": "Пельмень"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_fortune_cookie.jpg",
+    "correctAnswer": {
+      "tr": "Falcı Kurabiyesi",
+      "en": "Fortune Cookie",
+      "ru": "Печенье с предсказанием"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_takeout_box.jpg",
+    "correctAnswer": {
+      "tr": "Paket Servis Kutusu",
+      "en": "Takeout Box",
+      "ru": "Коробка навынос"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_soft_ice_cream.jpg",
+    "correctAnswer": {
+      "tr": "Yumuşak Dondurma",
+      "en": "Soft Ice Cream",
+      "ru": "Мягкое мороженое"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_shaved_ice.jpg",
+    "correctAnswer": {
+      "tr": "Tıraşlanmış Buz",
+      "en": "Shaved Ice",
+      "ru": "Колотый лёд"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_ice_cream.jpg",
+    "correctAnswer": {
+      "tr": "Dondurma",
+      "en": "Ice Cream",
+      "ru": "Мороженое"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_doughnut.jpg",
+    "correctAnswer": {
+      "tr": "Donut",
+      "en": "Doughnut",
+      "ru": "Пончик"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cookie.jpg",
+    "correctAnswer": {
+      "tr": "Kurabiye",
+      "en": "Cookie",
+      "ru": "Печенье"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_birthday_cake.jpg",
+    "correctAnswer": {
+      "tr": "Doğum Günü Pastası",
+      "en": "Birthday Cake",
+      "ru": "Праздничный торт"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_shortcake.jpg",
+    "correctAnswer": {
+      "tr": "Pandispanya Pasta",
+      "en": "Shortcake",
+      "ru": "Бисквитный торт"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cupcake.jpg",
+    "correctAnswer": {
+      "tr": "Kekcik",
+      "en": "Cupcake",
+      "ru": "Кекс"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_pie.jpg",
+    "correctAnswer": {
+      "tr": "Turta",
+      "en": "Pie",
+      "ru": "Пирог"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_chocolate_bar.jpg",
+    "correctAnswer": {
+      "tr": "Çikolata",
+      "en": "Chocolate Bar",
+      "ru": "Шоколадка"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_candy.jpg",
+    "correctAnswer": {
+      "tr": "Şeker",
+      "en": "Candy",
+      "ru": "Конфета"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_lollipop.jpg",
+    "correctAnswer": {
+      "tr": "Lolipop",
+      "en": "Lollipop",
+      "ru": "Леденец"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_custard.jpg",
+    "correctAnswer": {
+      "tr": "Muhallebi",
+      "en": "Custard",
+      "ru": "Заварной крем"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_honey_pot.jpg",
+    "correctAnswer": {
+      "tr": "Bal Kavanozu",
+      "en": "Honey Pot",
+      "ru": "Мёд"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_baby_bottle.jpg",
+    "correctAnswer": {
+      "tr": "Biberon",
+      "en": "Baby Bottle",
+      "ru": "Детская бутылочка"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_glass_of_milk.jpg",
+    "correctAnswer": {
+      "tr": "Bir Bardak Süt",
+      "en": "Glass of Milk",
+      "ru": "Стакан молока"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_coffee.jpg",
+    "correctAnswer": {
+      "tr": "Kahve",
+      "en": "Coffee",
+      "ru": "Кофе"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_teacup.jpg",
+    "correctAnswer": {
+      "tr": "Çay Fincanı",
+      "en": "Teacup",
+      "ru": "Чашка чая"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_sake.jpg",
+    "correctAnswer": {
+      "tr": "Sake",
+      "en": "Sake",
+      "ru": "Саке"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_wine_glass.jpg",
+    "correctAnswer": {
+      "tr": "Şarap Kadehi",
+      "en": "Wine Glass",
+      "ru": "Бокал вина"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cocktail_glass.jpg",
+    "correctAnswer": {
+      "tr": "Kokteyl Kadehi",
+      "en": "Cocktail Glass",
+      "ru": "Коктейль"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_tropical_drink.jpg",
+    "correctAnswer": {
+      "tr": "Tropikal İçecek",
+      "en": "Tropical Drink",
+      "ru": "Тропический коктейль"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_beer_mug.jpg",
+    "correctAnswer": {
+      "tr": "Bira Bardağı",
+      "en": "Beer Mug",
+      "ru": "Кружка пива"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_clinking_beer_mugs.jpg",
+    "correctAnswer": {
+      "tr": "Tokuşan Bira Bardakları",
+      "en": "Clinking Beer Mugs",
+      "ru": "Чокающиеся кружки пива"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_clinking_glasses.jpg",
+    "correctAnswer": {
+      "tr": "Tokuşan Kadehler",
+      "en": "Clinking Glasses",
+      "ru": "Чокающиеся бокалы"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_tumbler_glass.jpg",
+    "correctAnswer": {
+      "tr": "Viski Bardağı",
+      "en": "Tumbler Glass",
+      "ru": "Стакан виски"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_cup_with_straw.jpg",
+    "correctAnswer": {
+      "tr": "Pipetli Bardak",
+      "en": "Cup with Straw",
+      "ru": "Стакан с трубочкой"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_chopsticks.jpg",
+    "correctAnswer": {
+      "tr": "Yemek Çubukları",
+      "en": "Chopsticks",
+      "ru": "Палочки для еды"
+    },
+    "category": "yiyecek"
+  },
+  {
+    "imagePath": "food_bubble_tea.jpg",
+    "correctAnswer": {
+      "tr": "Bubble Tea",
+      "en": "Bubble Tea",
+      "ru": "Бабл-ти"
+    },
+    "category": "yiyecek"
   }
 ]

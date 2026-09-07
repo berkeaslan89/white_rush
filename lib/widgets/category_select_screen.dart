@@ -10,6 +10,7 @@ class CategorySelectScreen extends StatelessWidget {
     {'value': 'bayrak', 'icon': Icons.flag},
     {'value': 'hayvan', 'icon': Icons.pets},
     {'value': 'nesne', 'icon': Icons.category},
+    {'value': 'yiyecek', 'icon': Icons.fastfood},
   ];
 
   @override
